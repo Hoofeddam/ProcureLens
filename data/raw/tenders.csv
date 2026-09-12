@@ -1,0 +1,501 @@
+tender_id,department,tender_category,tender_title,estimated_value,tender_date,submission_deadline,contract_duration_days,procurement_method,location
+TEN0001,Education,Office Supplies,Printer and Consumables Supply - Education,823000,2024-05-24,2024-07-09,91,Open Tender,Meridian City
+TEN0002,Transport,Medical Supplies,Hospital Consumables Supply - Transport,3844000,2024-11-18,2025-01-01,52,Single Vendor,Fairhaven
+TEN0003,Education,Construction,Bridge Construction - Education,15891000,2022-02-12,2022-03-02,420,Open Tender,Northgate
+TEN0004,Public Works,IT Services,IT Infrastructure Upgrade - Public Works,12677000,2021-05-24,2021-07-17,342,Limited Tender,Eastwood
+TEN0005,Education,IT Services,Software Development Services - Education,6580000,2023-12-30,2024-01-17,170,Framework Agreement,Eastwood
+TEN0006,Public Works,Medical Supplies,Ambulance Procurement - Public Works,4475000,2023-04-25,2023-06-19,144,Limited Tender,Meridian City
+TEN0007,Health,IT Services,IT Infrastructure Upgrade - Health,4755000,2023-02-18,2023-03-21,271,Open Tender,Fairhaven
+TEN0008,IT & Digital Services,Medical Supplies,Medical Equipment Supply - IT & Digital Services,9479000,2023-11-07,2024-01-02,78,Limited Tender,Lakeside
+TEN0009,Education,IT Services,Network Maintenance Services - Education,12863000,2023-10-28,2023-11-30,141,Framework Agreement,Meridian City
+TEN0010,Education,IT Services,Network Maintenance Services - Education,2719000,2023-10-10,2023-11-15,353,Open Tender,Meridian City
+TEN0011,IT & Digital Services,IT Services,Software Development Services - IT & Digital Services,13168000,2021-07-23,2021-09-18,275,Open Tender,Rosedale
+TEN0012,Health,Consulting,Technical Consulting Services - Health,3684000,2022-04-27,2022-06-26,354,Open Tender,Lakeside
+TEN0013,IT & Digital Services,Medical Supplies,Medical Equipment Supply - IT & Digital Services,1889000,2021-12-04,2021-12-19,62,Open Tender,Meridian City
+TEN0014,Transport,Medical Supplies,Hospital Consumables Supply - Transport,9128000,2021-04-02,2021-05-16,163,Open Tender,Rosedale
+TEN0015,Health,IT Services,Network Maintenance Services - Health,11547000,2024-08-15,2024-10-02,283,Framework Agreement,Meridian City
+TEN0016,Health,IT Services,Data Center Setup - Health,7905000,2021-08-31,2021-10-15,319,Open Tender,Lakeside
+TEN0017,Health,Office Supplies,Office Equipment Procurement - Health,1137000,2023-04-12,2023-05-06,91,Open Tender,Meridian City
+TEN0018,Education,Medical Supplies,Pharmaceutical Supply - Education,1254000,2023-11-23,2023-12-17,132,Open Tender,Brookfield
+TEN0019,Transport,IT Services,Data Center Setup - Transport,2582000,2021-02-27,2021-04-16,255,Limited Tender,Brookfield
+TEN0020,Education,Medical Supplies,Pharmaceutical Supply - Education,3915000,2023-09-11,2023-09-30,93,Open Tender,Rosedale
+TEN0021,Public Works,Medical Supplies,Pharmaceutical Supply - Public Works,7564000,2024-11-23,2025-01-07,44,Limited Tender,Fairhaven
+TEN0022,IT & Digital Services,Office Supplies,Office Furniture Supply - IT & Digital Services,1551000,2024-04-16,2024-05-25,67,Open Tender,Brookfield
+TEN0023,Health,Medical Supplies,Medical Equipment Supply - Health,5109000,2022-05-26,2022-07-23,102,Framework Agreement,Rosedale
+TEN0024,IT & Digital Services,Office Supplies,Office Furniture Supply - IT & Digital Services,1404000,2021-09-07,2021-09-29,119,Limited Tender,Northgate
+TEN0025,Public Works,Consulting,Technical Consulting Services - Public Works,4706000,2023-04-29,2023-06-16,292,Open Tender,Fairhaven
+TEN0026,Health,Medical Supplies,Medical Equipment Supply - Health,783000,2023-05-09,2023-06-28,103,Limited Tender,Northgate
+TEN0027,Transport,Consulting,Financial Audit Services - Transport,6072000,2023-08-20,2023-10-06,103,Open Tender,Meridian City
+TEN0028,Health,Construction,Government Building Renovation - Health,36464000,2024-02-14,2024-03-06,454,Limited Tender,Fairhaven
+TEN0029,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,3832000,2023-09-16,2023-10-24,155,Limited Tender,Rosedale
+TEN0030,Education,Consulting,Technical Consulting Services - Education,2038000,2023-06-17,2023-07-16,123,Limited Tender,Meridian City
+TEN0031,Education,Consulting,Training and Capacity Building - Education,7830000,2022-09-23,2022-10-23,267,Open Tender,Northgate
+TEN0032,Public Works,Office Supplies,Office Equipment Procurement - Public Works,726000,2023-10-29,2023-11-23,40,Open Tender,Fairhaven
+TEN0033,Education,Office Supplies,Stationery Supply - Education,1338000,2024-04-04,2024-04-27,52,Open Tender,Eastwood
+TEN0034,Health,Construction,Bridge Construction - Health,14782000,2021-01-25,2021-03-12,683,Limited Tender,Eastwood
+TEN0035,Education,Consulting,Technical Consulting Services - Education,5199000,2024-12-19,2025-01-24,161,Open Tender,Northgate
+TEN0036,IT & Digital Services,IT Services,Data Center Setup - IT & Digital Services,744000,2021-09-13,2021-10-26,213,Open Tender,Northgate
+TEN0037,Public Works,Construction,Road Construction Project - Public Works,5560000,2024-10-25,2024-12-17,223,Limited Tender,Lakeside
+TEN0038,IT & Digital Services,Medical Supplies,Pharmaceutical Supply - IT & Digital Services,8376000,2024-05-28,2024-07-03,132,Open Tender,Clearwater
+TEN0039,Health,Consulting,Training and Capacity Building - Health,7623000,2022-10-14,2022-12-12,234,Open Tender,Meridian City
+TEN0040,Education,Office Supplies,Stationery Supply - Education,1092000,2024-05-08,2024-06-05,31,Open Tender,Northgate
+TEN0041,Education,IT Services,Network Maintenance Services - Education,3579000,2021-02-21,2021-03-30,94,Open Tender,Northgate
+TEN0042,Education,Consulting,Policy Advisory Services - Education,3823000,2023-03-22,2023-04-19,246,Single Vendor,Clearwater
+TEN0043,IT & Digital Services,Consulting,Financial Audit Services - IT & Digital Services,1122000,2021-06-22,2021-07-29,109,Single Vendor,Brookfield
+TEN0044,IT & Digital Services,IT Services,Data Center Setup - IT & Digital Services,758000,2022-02-04,2022-03-27,281,Open Tender,Brookfield
+TEN0045,IT & Digital Services,Office Supplies,Office Equipment Procurement - IT & Digital Services,1809000,2023-07-21,2023-08-11,49,Framework Agreement,Fairhaven
+TEN0046,Education,Office Supplies,Printer and Consumables Supply - Education,603000,2024-09-24,2024-11-05,41,Limited Tender,Fairhaven
+TEN0047,Transport,Office Supplies,Printer and Consumables Supply - Transport,1389000,2023-10-09,2023-10-29,34,Open Tender,Meridian City
+TEN0048,IT & Digital Services,Consulting,Policy Advisory Services - IT & Digital Services,6495000,2023-08-12,2023-09-09,183,Open Tender,Fairhaven
+TEN0049,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,6724000,2024-02-05,2024-03-19,178,Framework Agreement,Eastwood
+TEN0050,IT & Digital Services,IT Services,IT Infrastructure Upgrade - IT & Digital Services,5268000,2022-03-18,2022-04-18,203,Open Tender,Meridian City
+TEN0051,Public Works,Construction,Bridge Construction - Public Works,16776000,2024-01-01,2024-01-23,590,Open Tender,Meridian City
+TEN0052,Public Works,Office Supplies,Stationery Supply - Public Works,211000,2024-05-16,2024-06-08,45,Single Vendor,Northgate
+TEN0053,Education,Office Supplies,Printer and Consumables Supply - Education,1480000,2024-04-07,2024-06-03,63,Open Tender,Brookfield
+TEN0054,Public Works,Construction,Government Building Renovation - Public Works,42362000,2022-03-08,2022-04-05,556,Single Vendor,Clearwater
+TEN0055,IT & Digital Services,Consulting,Financial Audit Services - IT & Digital Services,7350000,2023-08-28,2023-10-13,69,Single Vendor,Fairhaven
+TEN0056,Transport,Medical Supplies,Hospital Consumables Supply - Transport,4367000,2021-06-23,2021-07-21,135,Framework Agreement,Northgate
+TEN0057,Public Works,Construction,Drainage System Upgrade - Public Works,43910000,2023-12-21,2024-02-06,338,Open Tender,Brookfield
+TEN0058,Public Works,IT Services,Data Center Setup - Public Works,13188000,2023-08-26,2023-10-04,302,Limited Tender,Northgate
+TEN0059,Public Works,IT Services,IT Infrastructure Upgrade - Public Works,13923000,2022-09-11,2022-10-02,319,Open Tender,Northgate
+TEN0060,Health,IT Services,Software Development Services - Health,13787000,2023-08-15,2023-10-05,125,Limited Tender,Meridian City
+TEN0061,IT & Digital Services,IT Services,Software Development Services - IT & Digital Services,7883000,2024-05-13,2024-06-07,126,Limited Tender,Rosedale
+TEN0062,Health,IT Services,Software Development Services - Health,8717000,2024-01-24,2024-03-22,342,Open Tender,Northgate
+TEN0063,Transport,Office Supplies,Office Equipment Procurement - Transport,1138000,2022-08-11,2022-09-15,77,Open Tender,Meridian City
+TEN0064,Education,Office Supplies,Office Furniture Supply - Education,787000,2024-04-04,2024-05-24,87,Limited Tender,Clearwater
+TEN0065,Transport,Medical Supplies,Pharmaceutical Supply - Transport,9627000,2023-10-06,2023-11-04,33,Open Tender,Northgate
+TEN0066,Public Works,Medical Supplies,Ambulance Procurement - Public Works,802000,2023-05-28,2023-07-02,162,Limited Tender,Clearwater
+TEN0067,Transport,Office Supplies,Stationery Supply - Transport,619000,2022-11-12,2022-12-28,104,Open Tender,Meridian City
+TEN0068,Education,Office Supplies,Stationery Supply - Education,1969000,2021-06-26,2021-07-17,40,Open Tender,Rosedale
+TEN0069,Public Works,Construction,Government Building Renovation - Public Works,3531000,2021-04-14,2021-05-20,569,Open Tender,Meridian City
+TEN0070,Education,IT Services,IT Infrastructure Upgrade - Education,3331000,2024-10-09,2024-11-29,115,Open Tender,Fairhaven
+TEN0071,Transport,Construction,Road Construction Project - Transport,37341000,2024-09-24,2024-11-17,629,Open Tender,Rosedale
+TEN0072,Public Works,IT Services,Software Development Services - Public Works,4699000,2022-07-29,2022-08-14,233,Open Tender,Rosedale
+TEN0073,Education,Office Supplies,Office Equipment Procurement - Education,447000,2021-10-10,2021-10-28,47,Open Tender,Meridian City
+TEN0074,Health,IT Services,IT Infrastructure Upgrade - Health,10140000,2024-12-07,2024-12-22,68,Single Vendor,Brookfield
+TEN0075,Transport,Office Supplies,Office Furniture Supply - Transport,684000,2022-08-07,2022-09-11,108,Single Vendor,Eastwood
+TEN0076,Education,IT Services,Network Maintenance Services - Education,2801000,2022-08-24,2022-09-23,296,Framework Agreement,Clearwater
+TEN0077,Public Works,Construction,Road Construction Project - Public Works,28964000,2023-12-30,2024-02-20,381,Open Tender,Meridian City
+TEN0078,Health,Office Supplies,Stationery Supply - Health,1818000,2021-11-29,2022-01-12,48,Single Vendor,Rosedale
+TEN0079,Education,Consulting,Financial Audit Services - Education,7552000,2021-02-18,2021-03-10,316,Open Tender,Lakeside
+TEN0080,Education,Consulting,Policy Advisory Services - Education,5570000,2021-01-07,2021-02-19,316,Open Tender,Eastwood
+TEN0081,Health,Construction,Drainage System Upgrade - Health,11191000,2023-12-14,2024-01-09,361,Open Tender,Northgate
+TEN0082,Education,Construction,Drainage System Upgrade - Education,27983000,2024-12-03,2025-01-14,366,Open Tender,Fairhaven
+TEN0083,Health,Medical Supplies,Hospital Consumables Supply - Health,4600000,2023-09-23,2023-11-05,42,Open Tender,Rosedale
+TEN0084,Public Works,Construction,Drainage System Upgrade - Public Works,17297000,2022-03-10,2022-04-05,622,Open Tender,Brookfield
+TEN0085,Transport,Medical Supplies,Medical Equipment Supply - Transport,733000,2023-09-18,2023-10-06,81,Limited Tender,Lakeside
+TEN0086,Education,Construction,Bridge Construction - Education,19015000,2024-12-23,2025-02-09,301,Open Tender,Lakeside
+TEN0087,Education,Consulting,Policy Advisory Services - Education,1278000,2021-09-02,2021-09-17,129,Open Tender,Lakeside
+TEN0088,Public Works,Construction,Drainage System Upgrade - Public Works,3093000,2021-02-07,2021-03-03,566,Open Tender,Northgate
+TEN0089,Transport,Office Supplies,Office Furniture Supply - Transport,1950000,2022-05-22,2022-06-27,90,Limited Tender,Meridian City
+TEN0090,Education,Medical Supplies,Pharmaceutical Supply - Education,9971000,2022-04-21,2022-05-30,36,Open Tender,Lakeside
+TEN0091,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,1696000,2021-05-13,2021-07-03,99,Open Tender,Brookfield
+TEN0092,Public Works,Office Supplies,Office Furniture Supply - Public Works,1025000,2023-09-08,2023-10-31,60,Open Tender,Meridian City
+TEN0093,Health,Medical Supplies,Ambulance Procurement - Health,7345000,2024-12-31,2025-01-31,84,Single Vendor,Rosedale
+TEN0094,Education,IT Services,Data Center Setup - Education,5054000,2023-03-09,2023-04-07,181,Open Tender,Fairhaven
+TEN0095,Public Works,IT Services,Software Development Services - Public Works,6341000,2022-07-04,2022-08-26,273,Limited Tender,Brookfield
+TEN0096,IT & Digital Services,Medical Supplies,Ambulance Procurement - IT & Digital Services,7639000,2021-08-16,2021-09-18,159,Framework Agreement,Lakeside
+TEN0097,Health,IT Services,Network Maintenance Services - Health,13324000,2024-06-24,2024-07-17,63,Limited Tender,Clearwater
+TEN0098,Health,Consulting,Policy Advisory Services - Health,5090000,2022-09-17,2022-10-21,238,Single Vendor,Rosedale
+TEN0099,Health,Office Supplies,Office Furniture Supply - Health,1363000,2021-08-07,2021-09-14,119,Single Vendor,Meridian City
+TEN0100,Public Works,Consulting,Policy Advisory Services - Public Works,1296000,2022-07-16,2022-09-09,42,Open Tender,Fairhaven
+TEN0101,Public Works,IT Services,IT Infrastructure Upgrade - Public Works,8103000,2023-06-07,2023-07-12,169,Open Tender,Clearwater
+TEN0102,Health,Construction,Drainage System Upgrade - Health,18608000,2021-03-04,2021-03-25,464,Open Tender,Northgate
+TEN0103,Health,Consulting,Policy Advisory Services - Health,3874000,2023-12-06,2024-02-04,197,Limited Tender,Lakeside
+TEN0104,Education,IT Services,Software Development Services - Education,3919000,2023-01-28,2023-02-17,193,Open Tender,Clearwater
+TEN0105,Transport,Medical Supplies,Pharmaceutical Supply - Transport,4881000,2021-10-23,2021-12-22,35,Open Tender,Brookfield
+TEN0106,Transport,Consulting,Training and Capacity Building - Transport,1991000,2021-02-12,2021-03-14,69,Open Tender,Meridian City
+TEN0107,IT & Digital Services,Office Supplies,Stationery Supply - IT & Digital Services,564000,2024-05-21,2024-06-27,88,Open Tender,Fairhaven
+TEN0108,Public Works,Office Supplies,Printer and Consumables Supply - Public Works,1428000,2021-06-25,2021-08-08,55,Open Tender,Eastwood
+TEN0109,Transport,Office Supplies,Printer and Consumables Supply - Transport,256000,2022-06-25,2022-08-18,76,Framework Agreement,Rosedale
+TEN0110,Public Works,Consulting,Training and Capacity Building - Public Works,2539000,2022-07-05,2022-08-31,149,Framework Agreement,Clearwater
+TEN0111,Public Works,IT Services,Network Maintenance Services - Public Works,5590000,2022-11-11,2023-01-05,235,Framework Agreement,Northgate
+TEN0112,IT & Digital Services,Consulting,Technical Consulting Services - IT & Digital Services,1340000,2021-11-25,2021-12-24,151,Framework Agreement,Meridian City
+TEN0113,Health,Office Supplies,Office Equipment Procurement - Health,379000,2023-11-07,2023-12-11,31,Single Vendor,Meridian City
+TEN0114,Education,Medical Supplies,Pharmaceutical Supply - Education,5003000,2024-04-16,2024-05-23,60,Open Tender,Lakeside
+TEN0115,IT & Digital Services,Construction,Road Construction Project - IT & Digital Services,25061000,2024-10-26,2024-12-19,404,Open Tender,Rosedale
+TEN0116,Education,Medical Supplies,Medical Equipment Supply - Education,527000,2022-01-06,2022-02-10,134,Open Tender,Fairhaven
+TEN0117,Transport,Construction,Road Construction Project - Transport,16427000,2021-09-30,2021-11-12,698,Framework Agreement,Fairhaven
+TEN0118,IT & Digital Services,Office Supplies,Printer and Consumables Supply - IT & Digital Services,1189000,2024-12-15,2025-01-22,35,Open Tender,Eastwood
+TEN0119,Transport,Office Supplies,Printer and Consumables Supply - Transport,1749000,2022-10-17,2022-11-14,103,Limited Tender,Fairhaven
+TEN0120,Transport,Office Supplies,Stationery Supply - Transport,1131000,2024-06-20,2024-07-15,41,Open Tender,Lakeside
+TEN0121,Public Works,Construction,Drainage System Upgrade - Public Works,48017000,2024-01-15,2024-02-03,696,Framework Agreement,Rosedale
+TEN0122,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,542000,2022-06-14,2022-07-05,168,Framework Agreement,Meridian City
+TEN0123,Education,Consulting,Technical Consulting Services - Education,3919000,2024-11-02,2024-11-25,209,Limited Tender,Meridian City
+TEN0124,Health,Construction,Bridge Construction - Health,20449000,2024-12-09,2025-01-08,349,Open Tender,Meridian City
+TEN0125,Public Works,Consulting,Training and Capacity Building - Public Works,6826000,2023-05-05,2023-06-09,268,Open Tender,Brookfield
+TEN0126,Public Works,Consulting,Technical Consulting Services - Public Works,7220000,2023-10-20,2023-11-10,261,Open Tender,Fairhaven
+TEN0127,Public Works,IT Services,Software Development Services - Public Works,7299000,2021-03-24,2021-05-12,309,Framework Agreement,Meridian City
+TEN0128,Public Works,IT Services,IT Infrastructure Upgrade - Public Works,6291000,2021-01-14,2021-02-14,313,Open Tender,Eastwood
+TEN0129,Health,Consulting,Technical Consulting Services - Health,5078000,2021-08-25,2021-09-14,50,Single Vendor,Eastwood
+TEN0130,Health,Construction,Government Building Renovation - Health,6672000,2024-04-18,2024-05-24,570,Open Tender,Rosedale
+TEN0131,IT & Digital Services,Office Supplies,Stationery Supply - IT & Digital Services,144000,2024-01-17,2024-03-11,92,Limited Tender,Eastwood
+TEN0132,Transport,Office Supplies,Printer and Consumables Supply - Transport,1780000,2024-04-17,2024-05-15,53,Open Tender,Rosedale
+TEN0133,Transport,Office Supplies,Office Furniture Supply - Transport,1445000,2022-06-05,2022-07-28,113,Open Tender,Brookfield
+TEN0134,Education,Medical Supplies,Medical Equipment Supply - Education,2700000,2024-07-02,2024-07-17,125,Limited Tender,Clearwater
+TEN0135,IT & Digital Services,IT Services,Software Development Services - IT & Digital Services,9110000,2022-04-18,2022-05-08,179,Single Vendor,Rosedale
+TEN0136,IT & Digital Services,Office Supplies,Office Furniture Supply - IT & Digital Services,145000,2024-10-01,2024-10-23,82,Open Tender,Meridian City
+TEN0137,IT & Digital Services,Medical Supplies,Pharmaceutical Supply - IT & Digital Services,4129000,2024-03-23,2024-05-05,156,Limited Tender,Rosedale
+TEN0138,IT & Digital Services,Office Supplies,Office Equipment Procurement - IT & Digital Services,1226000,2022-01-04,2022-02-06,115,Open Tender,Meridian City
+TEN0139,Transport,Construction,Bridge Construction - Transport,35365000,2021-01-11,2021-03-03,325,Single Vendor,Rosedale
+TEN0140,Education,Construction,Government Building Renovation - Education,30366000,2021-09-05,2021-09-28,194,Open Tender,Clearwater
+TEN0141,Public Works,Construction,Drainage System Upgrade - Public Works,9042000,2024-07-22,2024-08-21,691,Single Vendor,Fairhaven
+TEN0142,Public Works,Consulting,Policy Advisory Services - Public Works,7455000,2022-04-27,2022-05-28,170,Limited Tender,Rosedale
+TEN0143,IT & Digital Services,Consulting,Training and Capacity Building - IT & Digital Services,6448000,2022-05-31,2022-06-28,228,Open Tender,Clearwater
+TEN0144,Education,Office Supplies,Stationery Supply - Education,388000,2023-01-19,2023-02-08,115,Open Tender,Meridian City
+TEN0145,IT & Digital Services,Construction,Road Construction Project - IT & Digital Services,13469000,2024-04-27,2024-05-26,367,Open Tender,Clearwater
+TEN0146,IT & Digital Services,IT Services,Data Center Setup - IT & Digital Services,13724000,2024-06-15,2024-07-27,201,Open Tender,Fairhaven
+TEN0147,Public Works,Construction,Government Building Renovation - Public Works,8296000,2023-04-14,2023-05-04,216,Open Tender,Rosedale
+TEN0148,IT & Digital Services,Medical Supplies,Ambulance Procurement - IT & Digital Services,8086000,2021-06-05,2021-07-19,179,Limited Tender,Eastwood
+TEN0149,Health,Construction,Bridge Construction - Health,45463000,2022-01-01,2022-02-05,339,Open Tender,Eastwood
+TEN0150,Transport,Consulting,Training and Capacity Building - Transport,4733000,2024-10-04,2024-12-03,267,Limited Tender,Meridian City
+TEN0151,Education,Medical Supplies,Hospital Consumables Supply - Education,9625000,2024-03-27,2024-04-23,133,Open Tender,Rosedale
+TEN0152,Transport,Medical Supplies,Pharmaceutical Supply - Transport,1614000,2021-09-24,2021-10-28,76,Open Tender,Lakeside
+TEN0153,Education,IT Services,IT Infrastructure Upgrade - Education,9302000,2024-11-18,2024-12-25,332,Open Tender,Northgate
+TEN0154,IT & Digital Services,Office Supplies,Office Equipment Procurement - IT & Digital Services,444000,2023-12-19,2024-02-04,119,Open Tender,Rosedale
+TEN0155,IT & Digital Services,Consulting,Financial Audit Services - IT & Digital Services,4895000,2023-11-04,2023-12-09,64,Limited Tender,Meridian City
+TEN0156,Transport,Office Supplies,Office Furniture Supply - Transport,1702000,2024-12-28,2025-01-12,80,Open Tender,Clearwater
+TEN0157,Education,Construction,Road Construction Project - Education,3135000,2021-10-02,2021-10-27,438,Limited Tender,Meridian City
+TEN0158,Transport,Consulting,Policy Advisory Services - Transport,6566000,2024-07-28,2024-09-16,35,Framework Agreement,Fairhaven
+TEN0159,Public Works,Construction,Government Building Renovation - Public Works,27983000,2023-01-02,2023-03-03,272,Open Tender,Meridian City
+TEN0160,Education,Medical Supplies,Pharmaceutical Supply - Education,4834000,2024-12-09,2025-01-05,167,Open Tender,Northgate
+TEN0161,Transport,Construction,Government Building Renovation - Transport,4269000,2022-09-07,2022-09-24,729,Open Tender,Northgate
+TEN0162,Health,Office Supplies,Printer and Consumables Supply - Health,689000,2023-03-04,2023-04-27,63,Open Tender,Clearwater
+TEN0163,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,7825000,2021-01-17,2021-02-25,153,Open Tender,Meridian City
+TEN0164,Education,Medical Supplies,Pharmaceutical Supply - Education,1399000,2022-11-21,2022-12-08,133,Limited Tender,Fairhaven
+TEN0165,IT & Digital Services,IT Services,IT Infrastructure Upgrade - IT & Digital Services,1048000,2024-10-26,2024-12-04,289,Open Tender,Eastwood
+TEN0166,IT & Digital Services,Medical Supplies,Ambulance Procurement - IT & Digital Services,1145000,2024-10-14,2024-10-30,118,Limited Tender,Rosedale
+TEN0167,Health,Construction,Government Building Renovation - Health,24876000,2022-10-04,2022-12-01,703,Open Tender,Meridian City
+TEN0168,Transport,IT Services,Software Development Services - Transport,9516000,2024-03-05,2024-04-11,279,Open Tender,Fairhaven
+TEN0169,IT & Digital Services,IT Services,Network Maintenance Services - IT & Digital Services,1397000,2021-12-07,2022-01-23,164,Open Tender,Fairhaven
+TEN0170,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,7623000,2022-03-16,2022-04-03,147,Open Tender,Rosedale
+TEN0171,Education,IT Services,Data Center Setup - Education,11531000,2022-11-26,2022-12-27,172,Limited Tender,Meridian City
+TEN0172,Education,Medical Supplies,Pharmaceutical Supply - Education,1559000,2022-05-22,2022-07-18,180,Open Tender,Northgate
+TEN0173,Transport,IT Services,Network Maintenance Services - Transport,13133000,2022-04-09,2022-06-07,149,Single Vendor,Northgate
+TEN0174,Education,IT Services,Data Center Setup - Education,7983000,2024-03-17,2024-05-06,281,Open Tender,Fairhaven
+TEN0175,Education,Construction,Drainage System Upgrade - Education,2912000,2024-03-23,2024-05-12,475,Open Tender,Rosedale
+TEN0176,Transport,Construction,Government Building Renovation - Transport,21394000,2023-11-24,2023-12-11,723,Limited Tender,Northgate
+TEN0177,IT & Digital Services,IT Services,Network Maintenance Services - IT & Digital Services,10087000,2022-07-24,2022-09-01,94,Open Tender,Rosedale
+TEN0178,Transport,Medical Supplies,Ambulance Procurement - Transport,5373000,2021-02-22,2021-04-04,34,Limited Tender,Meridian City
+TEN0179,Education,Consulting,Policy Advisory Services - Education,5354000,2023-04-17,2023-05-12,54,Single Vendor,Lakeside
+TEN0180,Health,Medical Supplies,Ambulance Procurement - Health,791000,2024-05-08,2024-07-03,151,Open Tender,Rosedale
+TEN0181,Health,Office Supplies,Printer and Consumables Supply - Health,1721000,2022-10-11,2022-12-02,61,Open Tender,Meridian City
+TEN0182,IT & Digital Services,Consulting,Technical Consulting Services - IT & Digital Services,5914000,2023-02-12,2023-04-12,344,Limited Tender,Brookfield
+TEN0183,IT & Digital Services,IT Services,IT Infrastructure Upgrade - IT & Digital Services,11442000,2023-02-20,2023-04-08,164,Single Vendor,Northgate
+TEN0184,Health,Medical Supplies,Hospital Consumables Supply - Health,8577000,2021-06-18,2021-08-16,87,Open Tender,Clearwater
+TEN0185,Health,Consulting,Financial Audit Services - Health,3185000,2023-04-25,2023-06-02,258,Open Tender,Eastwood
+TEN0186,Transport,IT Services,Network Maintenance Services - Transport,7461000,2021-12-25,2022-02-03,208,Open Tender,Meridian City
+TEN0187,Transport,IT Services,Network Maintenance Services - Transport,597000,2021-04-03,2021-05-07,115,Open Tender,Brookfield
+TEN0188,Health,Construction,Bridge Construction - Health,10373000,2022-01-28,2022-02-16,200,Open Tender,Brookfield
+TEN0189,Transport,Medical Supplies,Ambulance Procurement - Transport,6492000,2024-08-16,2024-09-01,88,Limited Tender,Northgate
+TEN0190,Health,Construction,Government Building Renovation - Health,29524000,2023-08-16,2023-09-18,304,Open Tender,Meridian City
+TEN0191,IT & Digital Services,Consulting,Policy Advisory Services - IT & Digital Services,2898000,2021-05-04,2021-06-22,359,Framework Agreement,Eastwood
+TEN0192,IT & Digital Services,IT Services,IT Infrastructure Upgrade - IT & Digital Services,6732000,2024-10-27,2024-11-11,135,Limited Tender,Fairhaven
+TEN0193,Health,Office Supplies,Printer and Consumables Supply - Health,1549000,2024-09-08,2024-10-19,64,Open Tender,Rosedale
+TEN0194,Transport,Medical Supplies,Ambulance Procurement - Transport,7491000,2022-07-03,2022-08-06,148,Single Vendor,Northgate
+TEN0195,Education,Office Supplies,Stationery Supply - Education,1082000,2022-02-16,2022-03-31,59,Open Tender,Meridian City
+TEN0196,Health,Construction,Drainage System Upgrade - Health,30936000,2022-03-03,2022-04-25,614,Limited Tender,Brookfield
+TEN0197,Transport,Office Supplies,Office Furniture Supply - Transport,1807000,2024-08-27,2024-10-20,88,Open Tender,Brookfield
+TEN0198,Transport,Consulting,Policy Advisory Services - Transport,396000,2021-05-18,2021-07-09,54,Framework Agreement,Fairhaven
+TEN0199,Education,Consulting,Policy Advisory Services - Education,5939000,2023-03-25,2023-05-10,143,Framework Agreement,Meridian City
+TEN0200,Transport,Construction,Bridge Construction - Transport,41549000,2023-09-20,2023-10-05,685,Framework Agreement,Lakeside
+TEN0201,IT & Digital Services,Office Supplies,Office Equipment Procurement - IT & Digital Services,1858000,2023-06-07,2023-08-04,68,Open Tender,Rosedale
+TEN0202,Health,Medical Supplies,Hospital Consumables Supply - Health,3787000,2023-03-10,2023-04-23,178,Single Vendor,Brookfield
+TEN0203,Health,Medical Supplies,Ambulance Procurement - Health,4439000,2021-05-12,2021-06-03,40,Open Tender,Brookfield
+TEN0204,IT & Digital Services,Office Supplies,Stationery Supply - IT & Digital Services,1261000,2021-08-19,2021-09-06,115,Open Tender,Meridian City
+TEN0205,Transport,Medical Supplies,Pharmaceutical Supply - Transport,4788000,2024-12-23,2025-02-15,47,Limited Tender,Meridian City
+TEN0206,IT & Digital Services,IT Services,Network Maintenance Services - IT & Digital Services,14270000,2021-03-10,2021-05-03,253,Limited Tender,Clearwater
+TEN0207,Transport,IT Services,Data Center Setup - Transport,4274000,2023-11-02,2023-12-09,196,Framework Agreement,Brookfield
+TEN0208,Health,Medical Supplies,Medical Equipment Supply - Health,483000,2021-11-02,2022-01-01,164,Open Tender,Meridian City
+TEN0209,Education,Office Supplies,Printer and Consumables Supply - Education,1344000,2022-05-06,2022-05-25,80,Open Tender,Brookfield
+TEN0210,Transport,Office Supplies,Stationery Supply - Transport,1877000,2024-01-30,2024-02-20,81,Open Tender,Lakeside
+TEN0211,Health,Consulting,Financial Audit Services - Health,7902000,2021-07-03,2021-08-21,165,Open Tender,Lakeside
+TEN0212,Health,Office Supplies,Printer and Consumables Supply - Health,116000,2023-11-08,2024-01-01,99,Limited Tender,Fairhaven
+TEN0213,Transport,IT Services,Data Center Setup - Transport,654000,2023-01-23,2023-03-24,298,Limited Tender,Eastwood
+TEN0214,Health,Construction,Bridge Construction - Health,20085000,2023-07-14,2023-09-01,233,Open Tender,Rosedale
+TEN0215,IT & Digital Services,IT Services,Data Center Setup - IT & Digital Services,8303000,2023-07-03,2023-08-26,79,Limited Tender,Brookfield
+TEN0216,Transport,Office Supplies,Stationery Supply - Transport,776000,2022-03-20,2022-04-08,119,Limited Tender,Meridian City
+TEN0217,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,632000,2021-05-25,2021-06-21,146,Limited Tender,Eastwood
+TEN0218,IT & Digital Services,Consulting,Financial Audit Services - IT & Digital Services,5446000,2023-01-03,2023-02-16,118,Framework Agreement,Eastwood
+TEN0219,IT & Digital Services,IT Services,Data Center Setup - IT & Digital Services,6498000,2022-03-10,2022-04-06,259,Open Tender,Clearwater
+TEN0220,Education,Construction,Road Construction Project - Education,34109000,2023-05-13,2023-06-03,647,Single Vendor,Meridian City
+TEN0221,Health,Office Supplies,Office Furniture Supply - Health,139000,2022-01-25,2022-03-24,119,Open Tender,Fairhaven
+TEN0222,Health,IT Services,Software Development Services - Health,9939000,2023-06-23,2023-07-19,92,Limited Tender,Northgate
+TEN0223,Transport,Office Supplies,Office Equipment Procurement - Transport,1401000,2024-12-28,2025-01-28,48,Limited Tender,Lakeside
+TEN0224,Health,Consulting,Financial Audit Services - Health,6984000,2022-08-13,2022-10-09,267,Limited Tender,Northgate
+TEN0225,Transport,Construction,Drainage System Upgrade - Transport,44301000,2022-09-09,2022-10-03,485,Open Tender,Eastwood
+TEN0226,Education,IT Services,Software Development Services - Education,3021000,2021-04-07,2021-06-01,68,Open Tender,Rosedale
+TEN0227,Health,Office Supplies,Stationery Supply - Health,693000,2022-08-25,2022-10-21,58,Open Tender,Northgate
+TEN0228,Transport,Construction,Road Construction Project - Transport,44568000,2023-03-17,2023-05-11,441,Open Tender,Lakeside
+TEN0229,Public Works,Consulting,Technical Consulting Services - Public Works,5006000,2021-06-17,2021-08-01,331,Limited Tender,Eastwood
+TEN0230,IT & Digital Services,Consulting,Financial Audit Services - IT & Digital Services,1036000,2022-01-16,2022-03-09,52,Open Tender,Lakeside
+TEN0231,Health,Consulting,Training and Capacity Building - Health,3578000,2024-09-01,2024-10-23,348,Limited Tender,Northgate
+TEN0232,Transport,Office Supplies,Office Equipment Procurement - Transport,1409000,2024-11-22,2024-12-28,70,Limited Tender,Fairhaven
+TEN0233,Education,Medical Supplies,Pharmaceutical Supply - Education,4801000,2024-10-13,2024-11-12,104,Open Tender,Brookfield
+TEN0234,IT & Digital Services,IT Services,Software Development Services - IT & Digital Services,12286000,2024-03-09,2024-05-01,120,Single Vendor,Rosedale
+TEN0235,Transport,Construction,Bridge Construction - Transport,24308000,2023-06-18,2023-07-11,414,Framework Agreement,Clearwater
+TEN0236,Transport,Consulting,Training and Capacity Building - Transport,5690000,2021-06-14,2021-07-19,72,Open Tender,Meridian City
+TEN0237,Education,Construction,Government Building Renovation - Education,38539000,2021-01-22,2021-03-08,221,Single Vendor,Northgate
+TEN0238,Education,Consulting,Financial Audit Services - Education,3247000,2024-08-28,2024-10-15,155,Open Tender,Rosedale
+TEN0239,Public Works,Office Supplies,Printer and Consumables Supply - Public Works,550000,2023-10-06,2023-10-25,72,Single Vendor,Meridian City
+TEN0240,IT & Digital Services,Medical Supplies,Ambulance Procurement - IT & Digital Services,3612000,2021-10-30,2021-12-27,152,Open Tender,Brookfield
+TEN0241,Education,Office Supplies,Stationery Supply - Education,903000,2024-06-02,2024-07-24,101,Limited Tender,Eastwood
+TEN0242,Transport,Consulting,Training and Capacity Building - Transport,7984000,2023-06-07,2023-07-10,237,Open Tender,Meridian City
+TEN0243,IT & Digital Services,Office Supplies,Office Equipment Procurement - IT & Digital Services,1460000,2023-06-11,2023-07-13,64,Open Tender,Clearwater
+TEN0244,Education,Medical Supplies,Pharmaceutical Supply - Education,8471000,2023-08-22,2023-10-07,154,Open Tender,Rosedale
+TEN0245,Public Works,IT Services,Data Center Setup - Public Works,2008000,2024-01-07,2024-02-28,225,Single Vendor,Clearwater
+TEN0246,Transport,Medical Supplies,Pharmaceutical Supply - Transport,9730000,2022-05-26,2022-07-17,135,Open Tender,Northgate
+TEN0247,Public Works,Construction,Drainage System Upgrade - Public Works,8661000,2021-05-09,2021-06-22,515,Framework Agreement,Meridian City
+TEN0248,Transport,IT Services,Network Maintenance Services - Transport,2448000,2021-05-29,2021-06-28,99,Open Tender,Brookfield
+TEN0249,Transport,Office Supplies,Office Furniture Supply - Transport,1048000,2021-06-25,2021-07-19,34,Single Vendor,Meridian City
+TEN0250,Education,Office Supplies,Office Equipment Procurement - Education,1070000,2022-09-09,2022-10-30,117,Open Tender,Rosedale
+TEN0251,Education,IT Services,Network Maintenance Services - Education,2072000,2022-04-18,2022-05-07,279,Open Tender,Meridian City
+TEN0252,Education,Construction,Road Construction Project - Education,37092000,2021-07-18,2021-09-07,540,Open Tender,Clearwater
+TEN0253,Public Works,IT Services,Data Center Setup - Public Works,8469000,2021-02-06,2021-04-06,98,Open Tender,Northgate
+TEN0254,IT & Digital Services,Office Supplies,Office Equipment Procurement - IT & Digital Services,710000,2021-04-21,2021-06-10,102,Open Tender,Lakeside
+TEN0255,Health,Construction,Bridge Construction - Health,43663000,2021-11-15,2022-01-04,190,Limited Tender,Meridian City
+TEN0256,Education,Consulting,Training and Capacity Building - Education,6233000,2021-10-22,2021-11-21,224,Open Tender,Fairhaven
+TEN0257,Public Works,Office Supplies,Office Equipment Procurement - Public Works,1855000,2022-11-16,2023-01-15,120,Single Vendor,Meridian City
+TEN0258,Education,Construction,Road Construction Project - Education,11114000,2021-07-29,2021-08-28,268,Open Tender,Meridian City
+TEN0259,IT & Digital Services,Office Supplies,Printer and Consumables Supply - IT & Digital Services,1830000,2024-07-14,2024-09-09,63,Framework Agreement,Meridian City
+TEN0260,IT & Digital Services,IT Services,Software Development Services - IT & Digital Services,6726000,2021-11-18,2022-01-06,315,Framework Agreement,Fairhaven
+TEN0261,Education,Construction,Road Construction Project - Education,14598000,2023-02-02,2023-02-17,512,Single Vendor,Lakeside
+TEN0262,IT & Digital Services,IT Services,Network Maintenance Services - IT & Digital Services,2657000,2024-05-15,2024-07-03,171,Open Tender,Clearwater
+TEN0263,Public Works,Office Supplies,Office Equipment Procurement - Public Works,144000,2021-07-31,2021-08-22,106,Open Tender,Clearwater
+TEN0264,Transport,Construction,Bridge Construction - Transport,40702000,2021-09-07,2021-10-03,571,Open Tender,Brookfield
+TEN0265,Transport,Construction,Drainage System Upgrade - Transport,44761000,2021-03-10,2021-04-29,194,Limited Tender,Lakeside
+TEN0266,Education,IT Services,IT Infrastructure Upgrade - Education,6421000,2021-12-19,2022-01-29,190,Limited Tender,Meridian City
+TEN0267,Education,Office Supplies,Office Furniture Supply - Education,1781000,2024-01-12,2024-02-04,51,Framework Agreement,Clearwater
+TEN0268,Public Works,Medical Supplies,Ambulance Procurement - Public Works,6468000,2024-12-08,2025-01-06,92,Open Tender,Northgate
+TEN0269,Education,Consulting,Financial Audit Services - Education,5419000,2021-12-20,2022-02-08,109,Open Tender,Rosedale
+TEN0270,Public Works,Office Supplies,Stationery Supply - Public Works,886000,2024-06-06,2024-07-18,76,Open Tender,Lakeside
+TEN0271,IT & Digital Services,Consulting,Financial Audit Services - IT & Digital Services,6201000,2024-02-24,2024-04-11,322,Framework Agreement,Fairhaven
+TEN0272,Health,Consulting,Policy Advisory Services - Health,1973000,2021-10-15,2021-11-30,38,Framework Agreement,Northgate
+TEN0273,Health,Consulting,Technical Consulting Services - Health,5078000,2022-04-23,2022-05-14,116,Single Vendor,Rosedale
+TEN0274,Public Works,Medical Supplies,Hospital Consumables Supply - Public Works,359000,2022-06-01,2022-07-12,151,Limited Tender,Brookfield
+TEN0275,Public Works,Office Supplies,Office Equipment Procurement - Public Works,758000,2023-11-07,2023-12-23,85,Open Tender,Fairhaven
+TEN0276,IT & Digital Services,IT Services,Data Center Setup - IT & Digital Services,2970000,2022-10-26,2022-11-20,120,Open Tender,Fairhaven
+TEN0277,Health,Consulting,Training and Capacity Building - Health,7298000,2023-07-15,2023-09-01,280,Open Tender,Clearwater
+TEN0278,Health,Office Supplies,Office Equipment Procurement - Health,1730000,2023-04-11,2023-05-05,93,Open Tender,Rosedale
+TEN0279,IT & Digital Services,Construction,Government Building Renovation - IT & Digital Services,26962000,2021-08-27,2021-09-24,474,Open Tender,Lakeside
+TEN0280,Public Works,Construction,Drainage System Upgrade - Public Works,27977000,2024-04-12,2024-05-11,639,Open Tender,Rosedale
+TEN0281,Public Works,Office Supplies,Stationery Supply - Public Works,1995000,2024-06-05,2024-07-21,97,Single Vendor,Fairhaven
+TEN0282,Education,Office Supplies,Stationery Supply - Education,61000,2022-05-21,2022-06-17,94,Limited Tender,Meridian City
+TEN0283,Public Works,Consulting,Training and Capacity Building - Public Works,3600000,2024-02-03,2024-02-20,185,Open Tender,Brookfield
+TEN0284,Transport,IT Services,IT Infrastructure Upgrade - Transport,13456000,2023-06-25,2023-07-29,276,Open Tender,Meridian City
+TEN0285,Public Works,IT Services,Data Center Setup - Public Works,13540000,2023-07-02,2023-07-26,295,Open Tender,Meridian City
+TEN0286,Public Works,Consulting,Technical Consulting Services - Public Works,2313000,2024-05-24,2024-07-06,353,Framework Agreement,Northgate
+TEN0287,IT & Digital Services,Consulting,Financial Audit Services - IT & Digital Services,5778000,2023-03-21,2023-05-03,89,Open Tender,Eastwood
+TEN0288,Public Works,IT Services,Network Maintenance Services - Public Works,9809000,2022-06-20,2022-08-13,313,Open Tender,Brookfield
+TEN0289,Education,Consulting,Training and Capacity Building - Education,4848000,2022-04-10,2022-05-24,241,Framework Agreement,Meridian City
+TEN0290,IT & Digital Services,IT Services,IT Infrastructure Upgrade - IT & Digital Services,6927000,2022-10-06,2022-11-16,171,Framework Agreement,Meridian City
+TEN0291,IT & Digital Services,Consulting,Policy Advisory Services - IT & Digital Services,1960000,2021-08-20,2021-10-02,196,Single Vendor,Meridian City
+TEN0292,Transport,Consulting,Technical Consulting Services - Transport,5788000,2021-11-01,2021-11-19,191,Open Tender,Meridian City
+TEN0293,IT & Digital Services,Office Supplies,Office Furniture Supply - IT & Digital Services,1096000,2023-08-30,2023-09-17,74,Limited Tender,Meridian City
+TEN0294,IT & Digital Services,IT Services,Network Maintenance Services - IT & Digital Services,771000,2021-07-16,2021-09-08,61,Open Tender,Meridian City
+TEN0295,Transport,Office Supplies,Office Equipment Procurement - Transport,1353000,2022-12-05,2023-01-31,37,Open Tender,Fairhaven
+TEN0296,Health,Consulting,Financial Audit Services - Health,1589000,2021-12-14,2022-01-14,47,Open Tender,Northgate
+TEN0297,Health,Consulting,Financial Audit Services - Health,3192000,2024-03-24,2024-05-22,183,Open Tender,Brookfield
+TEN0298,IT & Digital Services,Construction,Government Building Renovation - IT & Digital Services,9780000,2023-08-20,2023-10-17,476,Limited Tender,Fairhaven
+TEN0299,IT & Digital Services,Consulting,Policy Advisory Services - IT & Digital Services,6451000,2021-11-02,2021-12-27,289,Limited Tender,Northgate
+TEN0300,Public Works,Consulting,Technical Consulting Services - Public Works,2314000,2022-01-02,2022-02-14,276,Open Tender,Brookfield
+TEN0301,IT & Digital Services,IT Services,Software Development Services - IT & Digital Services,4613000,2022-01-17,2022-03-15,301,Open Tender,Meridian City
+TEN0302,Transport,Consulting,Financial Audit Services - Transport,1412000,2023-09-02,2023-09-19,237,Single Vendor,Brookfield
+TEN0303,Health,Office Supplies,Office Equipment Procurement - Health,985000,2021-02-15,2021-03-17,91,Open Tender,Meridian City
+TEN0304,IT & Digital Services,Medical Supplies,Medical Equipment Supply - IT & Digital Services,2242000,2021-11-04,2021-11-22,107,Limited Tender,Lakeside
+TEN0305,Public Works,Consulting,Training and Capacity Building - Public Works,5234000,2024-04-07,2024-04-22,114,Open Tender,Rosedale
+TEN0306,Public Works,Consulting,Training and Capacity Building - Public Works,3811000,2024-03-14,2024-04-26,304,Open Tender,Meridian City
+TEN0307,Transport,Construction,Government Building Renovation - Transport,29680000,2024-10-18,2024-11-13,715,Limited Tender,Northgate
+TEN0308,Public Works,Consulting,Policy Advisory Services - Public Works,7736000,2023-09-04,2023-09-27,144,Framework Agreement,Eastwood
+TEN0309,Transport,Office Supplies,Office Equipment Procurement - Transport,1406000,2022-09-07,2022-10-11,76,Limited Tender,Lakeside
+TEN0310,Transport,Consulting,Training and Capacity Building - Transport,4530000,2024-07-01,2024-08-23,103,Framework Agreement,Meridian City
+TEN0311,Education,Consulting,Technical Consulting Services - Education,6659000,2023-10-16,2023-11-29,299,Open Tender,Meridian City
+TEN0312,Education,Construction,Government Building Renovation - Education,5876000,2023-11-05,2023-12-16,229,Open Tender,Eastwood
+TEN0313,Health,Consulting,Financial Audit Services - Health,2432000,2023-09-19,2023-10-16,349,Open Tender,Meridian City
+TEN0314,Education,Construction,Bridge Construction - Education,48484000,2024-10-09,2024-11-03,612,Limited Tender,Lakeside
+TEN0315,IT & Digital Services,IT Services,Network Maintenance Services - IT & Digital Services,4383000,2021-07-06,2021-07-21,321,Open Tender,Northgate
+TEN0316,Transport,Medical Supplies,Ambulance Procurement - Transport,3315000,2024-04-11,2024-05-20,172,Open Tender,Fairhaven
+TEN0317,Transport,Office Supplies,Office Equipment Procurement - Transport,329000,2021-03-27,2021-05-12,52,Open Tender,Northgate
+TEN0318,IT & Digital Services,Consulting,Policy Advisory Services - IT & Digital Services,1466000,2022-04-04,2022-05-07,91,Single Vendor,Meridian City
+TEN0319,Transport,Consulting,Financial Audit Services - Transport,1060000,2023-12-01,2024-01-24,344,Single Vendor,Northgate
+TEN0320,Transport,Medical Supplies,Hospital Consumables Supply - Transport,8776000,2022-07-04,2022-08-02,131,Open Tender,Meridian City
+TEN0321,IT & Digital Services,Office Supplies,Office Equipment Procurement - IT & Digital Services,1253000,2022-04-22,2022-06-14,60,Open Tender,Eastwood
+TEN0322,IT & Digital Services,Medical Supplies,Ambulance Procurement - IT & Digital Services,9679000,2024-01-30,2024-03-27,63,Limited Tender,Northgate
+TEN0323,Health,Construction,Drainage System Upgrade - Health,20785000,2022-05-07,2022-06-22,408,Open Tender,Rosedale
+TEN0324,IT & Digital Services,IT Services,Data Center Setup - IT & Digital Services,13774000,2023-01-18,2023-02-11,140,Open Tender,Eastwood
+TEN0325,Public Works,Construction,Drainage System Upgrade - Public Works,23913000,2023-10-09,2023-12-08,280,Limited Tender,Clearwater
+TEN0326,IT & Digital Services,Office Supplies,Office Furniture Supply - IT & Digital Services,490000,2024-11-19,2024-12-19,57,Single Vendor,Northgate
+TEN0327,Public Works,Consulting,Financial Audit Services - Public Works,6154000,2023-06-17,2023-08-16,248,Single Vendor,Meridian City
+TEN0328,Health,Consulting,Training and Capacity Building - Health,4476000,2022-08-22,2022-09-14,196,Open Tender,Eastwood
+TEN0329,Transport,IT Services,Network Maintenance Services - Transport,14368000,2022-12-07,2023-01-23,184,Framework Agreement,Northgate
+TEN0330,Health,Consulting,Financial Audit Services - Health,3885000,2022-02-16,2022-04-16,61,Open Tender,Brookfield
+TEN0331,Health,Construction,Road Construction Project - Health,8307000,2022-09-28,2022-10-30,294,Limited Tender,Brookfield
+TEN0332,IT & Digital Services,Construction,Drainage System Upgrade - IT & Digital Services,5887000,2023-12-13,2024-01-17,647,Framework Agreement,Meridian City
+TEN0333,IT & Digital Services,Office Supplies,Office Furniture Supply - IT & Digital Services,275000,2024-04-20,2024-06-10,110,Single Vendor,Meridian City
+TEN0334,Health,IT Services,IT Infrastructure Upgrade - Health,9629000,2024-05-17,2024-06-22,161,Open Tender,Clearwater
+TEN0335,Health,IT Services,IT Infrastructure Upgrade - Health,10790000,2021-10-12,2021-11-19,255,Open Tender,Clearwater
+TEN0336,IT & Digital Services,Construction,Government Building Renovation - IT & Digital Services,45015000,2021-06-03,2021-07-19,628,Open Tender,Clearwater
+TEN0337,Transport,Construction,Bridge Construction - Transport,33990000,2024-02-16,2024-04-12,368,Open Tender,Fairhaven
+TEN0338,Health,IT Services,Data Center Setup - Health,8285000,2021-09-21,2021-11-18,345,Open Tender,Fairhaven
+TEN0339,Public Works,Office Supplies,Stationery Supply - Public Works,1667000,2021-09-30,2021-10-29,30,Open Tender,Meridian City
+TEN0340,Public Works,Construction,Bridge Construction - Public Works,16078000,2021-10-26,2021-12-03,509,Open Tender,Meridian City
+TEN0341,Public Works,Consulting,Financial Audit Services - Public Works,5578000,2023-06-26,2023-07-22,214,Open Tender,Meridian City
+TEN0342,Education,Construction,Drainage System Upgrade - Education,5551000,2022-03-01,2022-04-15,604,Open Tender,Meridian City
+TEN0343,IT & Digital Services,Consulting,Technical Consulting Services - IT & Digital Services,3517000,2022-01-31,2022-02-15,304,Framework Agreement,Meridian City
+TEN0344,Health,Office Supplies,Office Furniture Supply - Health,1598000,2023-10-16,2023-12-15,43,Open Tender,Northgate
+TEN0345,Health,Medical Supplies,Medical Equipment Supply - Health,590000,2024-09-17,2024-10-11,113,Open Tender,Brookfield
+TEN0346,Public Works,IT Services,IT Infrastructure Upgrade - Public Works,11900000,2023-09-26,2023-11-14,185,Framework Agreement,Rosedale
+TEN0347,Transport,Consulting,Policy Advisory Services - Transport,6026000,2024-02-18,2024-03-10,179,Open Tender,Lakeside
+TEN0348,IT & Digital Services,IT Services,IT Infrastructure Upgrade - IT & Digital Services,14142000,2021-12-04,2022-02-01,85,Limited Tender,Brookfield
+TEN0349,Public Works,Construction,Bridge Construction - Public Works,45511000,2024-06-27,2024-08-13,628,Single Vendor,Fairhaven
+TEN0350,Health,Office Supplies,Printer and Consumables Supply - Health,191000,2023-11-25,2023-12-17,49,Open Tender,Northgate
+TEN0351,Health,Consulting,Training and Capacity Building - Health,4149000,2021-07-06,2021-08-29,111,Open Tender,Meridian City
+TEN0352,Public Works,Medical Supplies,Pharmaceutical Supply - Public Works,2235000,2024-12-17,2025-01-22,147,Limited Tender,Lakeside
+TEN0353,Health,Office Supplies,Printer and Consumables Supply - Health,1705000,2021-02-17,2021-03-16,108,Open Tender,Eastwood
+TEN0354,Health,IT Services,Network Maintenance Services - Health,14617000,2021-12-01,2021-12-16,143,Open Tender,Meridian City
+TEN0355,Education,Consulting,Financial Audit Services - Education,2773000,2023-10-02,2023-11-23,110,Framework Agreement,Fairhaven
+TEN0356,Public Works,Construction,Government Building Renovation - Public Works,18391000,2024-07-04,2024-08-24,499,Open Tender,Rosedale
+TEN0357,IT & Digital Services,Office Supplies,Printer and Consumables Supply - IT & Digital Services,1496000,2024-07-19,2024-09-02,45,Single Vendor,Clearwater
+TEN0358,Education,Construction,Government Building Renovation - Education,18185000,2021-09-13,2021-10-21,728,Open Tender,Fairhaven
+TEN0359,Transport,IT Services,Data Center Setup - Transport,1112000,2021-03-10,2021-05-09,285,Open Tender,Eastwood
+TEN0360,Transport,Consulting,Policy Advisory Services - Transport,1192000,2024-06-25,2024-07-10,347,Framework Agreement,Rosedale
+TEN0361,Public Works,Consulting,Financial Audit Services - Public Works,4531000,2023-07-31,2023-09-19,278,Open Tender,Clearwater
+TEN0362,Transport,Medical Supplies,Pharmaceutical Supply - Transport,3635000,2024-06-03,2024-07-31,79,Open Tender,Eastwood
+TEN0363,Public Works,Medical Supplies,Hospital Consumables Supply - Public Works,4426000,2021-09-08,2021-10-22,92,Open Tender,Clearwater
+TEN0364,Health,Medical Supplies,Hospital Consumables Supply - Health,8895000,2024-07-22,2024-08-26,169,Open Tender,Northgate
+TEN0365,IT & Digital Services,Medical Supplies,Ambulance Procurement - IT & Digital Services,866000,2023-09-22,2023-10-31,38,Open Tender,Northgate
+TEN0366,Transport,Medical Supplies,Pharmaceutical Supply - Transport,2264000,2022-07-04,2022-08-17,148,Single Vendor,Rosedale
+TEN0367,IT & Digital Services,Medical Supplies,Pharmaceutical Supply - IT & Digital Services,7541000,2023-08-22,2023-10-20,170,Open Tender,Lakeside
+TEN0368,Education,Office Supplies,Stationery Supply - Education,1509000,2021-04-14,2021-06-13,64,Open Tender,Brookfield
+TEN0369,Transport,Medical Supplies,Ambulance Procurement - Transport,6695000,2022-02-23,2022-04-08,87,Framework Agreement,Clearwater
+TEN0370,Public Works,Consulting,Financial Audit Services - Public Works,5443000,2023-02-09,2023-03-21,309,Framework Agreement,Lakeside
+TEN0371,Health,Consulting,Training and Capacity Building - Health,1436000,2023-09-26,2023-11-18,90,Single Vendor,Fairhaven
+TEN0372,Education,IT Services,Data Center Setup - Education,14318000,2024-07-15,2024-09-08,170,Open Tender,Lakeside
+TEN0373,IT & Digital Services,Consulting,Policy Advisory Services - IT & Digital Services,5757000,2023-07-27,2023-09-07,342,Open Tender,Northgate
+TEN0374,Public Works,Construction,Bridge Construction - Public Works,4092000,2022-06-26,2022-08-22,526,Open Tender,Eastwood
+TEN0375,Health,Consulting,Technical Consulting Services - Health,7863000,2022-10-14,2022-12-07,242,Single Vendor,Brookfield
+TEN0376,Public Works,Medical Supplies,Medical Equipment Supply - Public Works,4639000,2021-04-02,2021-05-06,45,Open Tender,Eastwood
+TEN0377,Education,IT Services,Software Development Services - Education,9087000,2023-11-23,2024-01-05,81,Open Tender,Brookfield
+TEN0378,Public Works,Office Supplies,Printer and Consumables Supply - Public Works,695000,2021-09-05,2021-10-15,90,Limited Tender,Lakeside
+TEN0379,Education,IT Services,Software Development Services - Education,2062000,2024-10-20,2024-12-04,196,Open Tender,Fairhaven
+TEN0380,Health,Medical Supplies,Medical Equipment Supply - Health,2123000,2024-06-21,2024-07-20,38,Single Vendor,Lakeside
+TEN0381,Education,Office Supplies,Office Equipment Procurement - Education,1145000,2023-11-13,2023-12-04,74,Open Tender,Eastwood
+TEN0382,Health,IT Services,Software Development Services - Health,10360000,2023-11-01,2023-11-23,237,Limited Tender,Rosedale
+TEN0383,IT & Digital Services,Construction,Road Construction Project - IT & Digital Services,39112000,2024-02-25,2024-04-11,455,Open Tender,Fairhaven
+TEN0384,Education,Medical Supplies,Hospital Consumables Supply - Education,4458000,2022-06-14,2022-08-03,171,Open Tender,Northgate
+TEN0385,Health,Office Supplies,Office Equipment Procurement - Health,1542000,2022-05-03,2022-06-19,56,Framework Agreement,Eastwood
+TEN0386,IT & Digital Services,Office Supplies,Office Furniture Supply - IT & Digital Services,814000,2022-04-26,2022-06-21,32,Open Tender,Northgate
+TEN0387,Health,Construction,Government Building Renovation - Health,10160000,2023-12-17,2024-01-09,498,Open Tender,Clearwater
+TEN0388,Education,Medical Supplies,Medical Equipment Supply - Education,4510000,2021-05-10,2021-07-02,140,Open Tender,Meridian City
+TEN0389,Transport,Consulting,Technical Consulting Services - Transport,6760000,2024-09-29,2024-10-23,119,Open Tender,Rosedale
+TEN0390,IT & Digital Services,Consulting,Technical Consulting Services - IT & Digital Services,2337000,2022-05-28,2022-07-26,224,Open Tender,Meridian City
+TEN0391,IT & Digital Services,Office Supplies,Printer and Consumables Supply - IT & Digital Services,119000,2021-05-10,2021-06-15,65,Limited Tender,Eastwood
+TEN0392,IT & Digital Services,Medical Supplies,Ambulance Procurement - IT & Digital Services,6960000,2022-01-10,2022-02-22,100,Limited Tender,Meridian City
+TEN0393,Public Works,IT Services,IT Infrastructure Upgrade - Public Works,14782000,2024-06-14,2024-08-08,134,Open Tender,Northgate
+TEN0394,Education,Medical Supplies,Ambulance Procurement - Education,9732000,2023-06-10,2023-07-25,122,Framework Agreement,Lakeside
+TEN0395,Transport,Office Supplies,Office Equipment Procurement - Transport,1851000,2021-02-24,2021-03-11,113,Open Tender,Northgate
+TEN0396,Public Works,Construction,Road Construction Project - Public Works,3013000,2021-06-30,2021-08-20,644,Open Tender,Lakeside
+TEN0397,Transport,Construction,Government Building Renovation - Transport,7757000,2021-10-06,2021-10-25,234,Limited Tender,Brookfield
+TEN0398,Public Works,Medical Supplies,Ambulance Procurement - Public Works,7192000,2022-11-25,2023-01-03,129,Open Tender,Meridian City
+TEN0399,Transport,Consulting,Financial Audit Services - Transport,7653000,2023-09-13,2023-10-24,205,Open Tender,Clearwater
+TEN0400,IT & Digital Services,Construction,Road Construction Project - IT & Digital Services,17253000,2022-07-23,2022-08-07,425,Limited Tender,Eastwood
+TEN0401,Transport,Construction,Government Building Renovation - Transport,12955000,2022-10-06,2022-11-13,270,Open Tender,Clearwater
+TEN0402,Transport,Construction,Road Construction Project - Transport,24061000,2023-01-09,2023-03-07,291,Single Vendor,Northgate
+TEN0403,Health,IT Services,Data Center Setup - Health,13855000,2023-01-28,2023-03-20,201,Framework Agreement,Lakeside
+TEN0404,Education,Consulting,Technical Consulting Services - Education,7051000,2021-02-28,2021-04-12,170,Open Tender,Northgate
+TEN0405,Transport,IT Services,Software Development Services - Transport,7621000,2024-10-31,2024-11-28,263,Open Tender,Meridian City
+TEN0406,Transport,Consulting,Technical Consulting Services - Transport,2695000,2023-09-28,2023-11-06,144,Open Tender,Rosedale
+TEN0407,Public Works,Construction,Bridge Construction - Public Works,28879000,2022-03-24,2022-04-11,462,Framework Agreement,Clearwater
+TEN0408,Public Works,Medical Supplies,Hospital Consumables Supply - Public Works,5052000,2023-07-26,2023-09-08,71,Single Vendor,Lakeside
+TEN0409,IT & Digital Services,IT Services,Network Maintenance Services - IT & Digital Services,11117000,2022-08-21,2022-09-28,220,Limited Tender,Northgate
+TEN0410,IT & Digital Services,IT Services,Network Maintenance Services - IT & Digital Services,6544000,2021-08-31,2021-09-19,104,Single Vendor,Meridian City
+TEN0411,Health,IT Services,Data Center Setup - Health,10188000,2024-11-11,2025-01-06,357,Open Tender,Eastwood
+TEN0412,Transport,IT Services,Software Development Services - Transport,1545000,2022-05-03,2022-06-01,342,Limited Tender,Brookfield
+TEN0413,Health,Consulting,Training and Capacity Building - Health,813000,2021-02-24,2021-04-25,121,Open Tender,Eastwood
+TEN0414,Education,Office Supplies,Stationery Supply - Education,1358000,2024-01-27,2024-02-18,82,Open Tender,Lakeside
+TEN0415,Education,Medical Supplies,Hospital Consumables Supply - Education,1089000,2022-08-11,2022-09-26,61,Open Tender,Rosedale
+TEN0416,Transport,Construction,Road Construction Project - Transport,14536000,2023-05-03,2023-06-08,325,Open Tender,Meridian City
+TEN0417,Transport,Office Supplies,Office Furniture Supply - Transport,1835000,2024-02-15,2024-03-07,63,Open Tender,Northgate
+TEN0418,Education,Office Supplies,Printer and Consumables Supply - Education,1504000,2024-11-17,2025-01-05,58,Open Tender,Meridian City
+TEN0419,Transport,IT Services,IT Infrastructure Upgrade - Transport,11480000,2024-01-18,2024-03-11,81,Open Tender,Northgate
+TEN0420,Education,Medical Supplies,Hospital Consumables Supply - Education,1690000,2022-06-18,2022-07-04,108,Single Vendor,Northgate
+TEN0421,Public Works,IT Services,Data Center Setup - Public Works,9822000,2023-05-13,2023-07-04,238,Limited Tender,Meridian City
+TEN0422,Education,Consulting,Financial Audit Services - Education,4387000,2022-05-21,2022-07-04,147,Open Tender,Eastwood
+TEN0423,Public Works,Consulting,Policy Advisory Services - Public Works,977000,2021-01-17,2021-02-13,271,Limited Tender,Clearwater
+TEN0424,Public Works,Office Supplies,Office Equipment Procurement - Public Works,1452000,2023-07-10,2023-07-28,101,Open Tender,Northgate
+TEN0425,Public Works,IT Services,Network Maintenance Services - Public Works,13593000,2022-02-24,2022-03-11,331,Open Tender,Eastwood
+TEN0426,Transport,IT Services,Software Development Services - Transport,3450000,2024-05-16,2024-07-13,294,Open Tender,Fairhaven
+TEN0427,Transport,IT Services,Network Maintenance Services - Transport,7884000,2024-10-14,2024-11-07,247,Limited Tender,Eastwood
+TEN0428,IT & Digital Services,Office Supplies,Office Equipment Procurement - IT & Digital Services,1901000,2022-08-31,2022-09-29,65,Open Tender,Brookfield
+TEN0429,Health,Construction,Road Construction Project - Health,10089000,2023-09-14,2023-10-03,468,Framework Agreement,Northgate
+TEN0430,Education,Construction,Drainage System Upgrade - Education,32791000,2022-07-15,2022-08-25,321,Limited Tender,Fairhaven
+TEN0431,Health,Construction,Government Building Renovation - Health,47009000,2021-11-21,2021-12-11,328,Limited Tender,Meridian City
+TEN0432,Public Works,Construction,Government Building Renovation - Public Works,22000000,2023-01-28,2023-02-19,657,Framework Agreement,Rosedale
+TEN0433,Public Works,Consulting,Technical Consulting Services - Public Works,7981000,2022-05-24,2022-06-22,120,Open Tender,Lakeside
+TEN0434,Transport,Office Supplies,Office Equipment Procurement - Transport,1851000,2024-09-10,2024-10-06,94,Open Tender,Northgate
+TEN0435,Transport,IT Services,IT Infrastructure Upgrade - Transport,8260000,2021-09-24,2021-10-25,198,Limited Tender,Fairhaven
+TEN0436,Education,Office Supplies,Printer and Consumables Supply - Education,259000,2021-02-27,2021-04-06,87,Single Vendor,Northgate
+TEN0437,Health,Consulting,Financial Audit Services - Health,1355000,2023-03-04,2023-03-30,98,Single Vendor,Eastwood
+TEN0438,Public Works,IT Services,Network Maintenance Services - Public Works,12821000,2024-01-24,2024-03-10,112,Limited Tender,Rosedale
+TEN0439,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,3706000,2023-09-09,2023-10-30,120,Open Tender,Brookfield
+TEN0440,Education,Office Supplies,Printer and Consumables Supply - Education,198000,2022-06-07,2022-06-24,32,Limited Tender,Meridian City
+TEN0441,Transport,Construction,Drainage System Upgrade - Transport,40247000,2021-05-19,2021-06-19,254,Limited Tender,Fairhaven
+TEN0442,Public Works,Consulting,Policy Advisory Services - Public Works,493000,2021-04-16,2021-05-31,244,Open Tender,Rosedale
+TEN0443,IT & Digital Services,IT Services,Software Development Services - IT & Digital Services,2165000,2022-09-11,2022-10-22,129,Limited Tender,Fairhaven
+TEN0444,IT & Digital Services,IT Services,Data Center Setup - IT & Digital Services,8749000,2021-05-13,2021-05-30,323,Open Tender,Meridian City
+TEN0445,Public Works,Construction,Government Building Renovation - Public Works,29204000,2023-04-03,2023-05-26,538,Open Tender,Lakeside
+TEN0446,Education,Medical Supplies,Hospital Consumables Supply - Education,7544000,2022-01-24,2022-03-23,132,Single Vendor,Clearwater
+TEN0447,Health,IT Services,IT Infrastructure Upgrade - Health,10713000,2024-11-01,2024-12-22,277,Open Tender,Lakeside
+TEN0448,Transport,Construction,Road Construction Project - Transport,19742000,2024-11-06,2024-12-09,360,Open Tender,Rosedale
+TEN0449,IT & Digital Services,Medical Supplies,Medical Equipment Supply - IT & Digital Services,1734000,2021-11-22,2022-01-10,91,Open Tender,Meridian City
+TEN0450,Public Works,IT Services,Software Development Services - Public Works,11719000,2024-07-24,2024-08-13,180,Open Tender,Eastwood
+TEN0451,Public Works,Consulting,Training and Capacity Building - Public Works,7453000,2024-10-21,2024-12-17,134,Limited Tender,Eastwood
+TEN0452,Public Works,IT Services,IT Infrastructure Upgrade - Public Works,14007000,2022-11-03,2022-12-05,130,Open Tender,Fairhaven
+TEN0453,Health,Construction,Drainage System Upgrade - Health,4456000,2022-08-30,2022-10-18,328,Open Tender,Northgate
+TEN0454,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,7268000,2021-03-03,2021-05-01,30,Open Tender,Eastwood
+TEN0455,Health,IT Services,Network Maintenance Services - Health,5827000,2021-12-28,2022-02-25,271,Open Tender,Fairhaven
+TEN0456,Education,Consulting,Financial Audit Services - Education,5281000,2023-12-08,2024-01-18,286,Limited Tender,Fairhaven
+TEN0457,Health,Construction,Government Building Renovation - Health,46577000,2021-08-08,2021-08-27,204,Open Tender,Clearwater
+TEN0458,Transport,Construction,Drainage System Upgrade - Transport,27091000,2022-09-10,2022-10-24,305,Limited Tender,Brookfield
+TEN0459,IT & Digital Services,Medical Supplies,Pharmaceutical Supply - IT & Digital Services,9034000,2024-02-28,2024-04-26,164,Limited Tender,Lakeside
+TEN0460,Public Works,IT Services,Network Maintenance Services - Public Works,10965000,2023-06-10,2023-07-11,289,Framework Agreement,Meridian City
+TEN0461,Health,Consulting,Training and Capacity Building - Health,5692000,2022-06-20,2022-08-02,171,Framework Agreement,Lakeside
+TEN0462,Health,Construction,Drainage System Upgrade - Health,33497000,2024-04-03,2024-04-20,627,Framework Agreement,Meridian City
+TEN0463,Health,Office Supplies,Office Furniture Supply - Health,1836000,2022-05-14,2022-07-06,43,Open Tender,Meridian City
+TEN0464,IT & Digital Services,Construction,Drainage System Upgrade - IT & Digital Services,2277000,2021-05-12,2021-06-06,193,Limited Tender,Meridian City
+TEN0465,Health,Medical Supplies,Ambulance Procurement - Health,4868000,2023-06-28,2023-08-05,33,Open Tender,Northgate
+TEN0466,Public Works,Medical Supplies,Pharmaceutical Supply - Public Works,6855000,2021-04-29,2021-05-26,91,Open Tender,Rosedale
+TEN0467,Education,Consulting,Technical Consulting Services - Education,1606000,2021-03-15,2021-04-21,294,Open Tender,Eastwood
+TEN0468,Education,IT Services,Data Center Setup - Education,1389000,2022-05-10,2022-05-28,338,Limited Tender,Northgate
+TEN0469,Health,Office Supplies,Office Equipment Procurement - Health,1640000,2022-12-08,2023-01-28,70,Open Tender,Clearwater
+TEN0470,Health,Consulting,Policy Advisory Services - Health,7281000,2024-04-21,2024-06-02,177,Open Tender,Rosedale
+TEN0471,Health,Medical Supplies,Medical Equipment Supply - Health,2243000,2024-04-30,2024-05-26,104,Framework Agreement,Northgate
+TEN0472,Health,Medical Supplies,Pharmaceutical Supply - Health,8148000,2024-03-25,2024-04-27,67,Open Tender,Clearwater
+TEN0473,Health,IT Services,Data Center Setup - Health,12804000,2021-02-08,2021-04-07,193,Single Vendor,Fairhaven
+TEN0474,Public Works,IT Services,IT Infrastructure Upgrade - Public Works,7335000,2024-11-09,2024-12-14,90,Open Tender,Northgate
+TEN0475,IT & Digital Services,Office Supplies,Office Furniture Supply - IT & Digital Services,1145000,2023-03-31,2023-05-01,100,Open Tender,Lakeside
+TEN0476,Transport,Medical Supplies,Ambulance Procurement - Transport,1022000,2021-11-18,2021-12-25,178,Open Tender,Lakeside
+TEN0477,IT & Digital Services,Construction,Bridge Construction - IT & Digital Services,14475000,2021-01-31,2021-03-13,182,Open Tender,Fairhaven
+TEN0478,Public Works,IT Services,Network Maintenance Services - Public Works,14849000,2024-09-05,2024-09-27,257,Framework Agreement,Fairhaven
+TEN0479,Public Works,Construction,Bridge Construction - Public Works,16921000,2021-01-12,2021-02-12,364,Open Tender,Lakeside
+TEN0480,Health,Consulting,Training and Capacity Building - Health,1370000,2023-11-22,2024-01-13,365,Open Tender,Fairhaven
+TEN0481,Education,Construction,Drainage System Upgrade - Education,10340000,2021-05-24,2021-07-21,500,Limited Tender,Eastwood
+TEN0482,Education,Construction,Government Building Renovation - Education,5256000,2023-02-06,2023-03-30,624,Open Tender,Lakeside
+TEN0483,Education,Office Supplies,Stationery Supply - Education,1442000,2024-09-05,2024-10-17,42,Open Tender,Rosedale
+TEN0484,IT & Digital Services,Office Supplies,Printer and Consumables Supply - IT & Digital Services,163000,2024-10-16,2024-11-13,68,Open Tender,Northgate
+TEN0485,IT & Digital Services,Office Supplies,Stationery Supply - IT & Digital Services,1096000,2024-02-26,2024-04-08,86,Limited Tender,Rosedale
+TEN0486,IT & Digital Services,Construction,Bridge Construction - IT & Digital Services,29551000,2023-11-16,2023-12-18,634,Limited Tender,Northgate
+TEN0487,Education,Medical Supplies,Hospital Consumables Supply - Education,6473000,2021-04-17,2021-06-08,125,Limited Tender,Northgate
+TEN0488,Education,Medical Supplies,Ambulance Procurement - Education,7910000,2023-04-19,2023-05-23,135,Framework Agreement,Rosedale
+TEN0489,IT & Digital Services,Medical Supplies,Medical Equipment Supply - IT & Digital Services,2391000,2021-04-30,2021-05-15,139,Limited Tender,Rosedale
+TEN0490,IT & Digital Services,Medical Supplies,Hospital Consumables Supply - IT & Digital Services,3461000,2024-03-21,2024-05-06,143,Open Tender,Meridian City
+TEN0491,IT & Digital Services,Consulting,Training and Capacity Building - IT & Digital Services,5533000,2023-04-10,2023-05-13,221,Open Tender,Rosedale
+TEN0492,Health,Construction,Government Building Renovation - Health,30569000,2022-01-10,2022-03-07,672,Open Tender,Northgate
+TEN0493,IT & Digital Services,Office Supplies,Stationery Supply - IT & Digital Services,654000,2021-04-25,2021-06-08,107,Framework Agreement,Rosedale
+TEN0494,Public Works,Office Supplies,Stationery Supply - Public Works,266000,2023-10-31,2023-12-06,111,Open Tender,Eastwood
+TEN0495,Transport,Construction,Drainage System Upgrade - Transport,49434000,2024-10-05,2024-10-24,511,Open Tender,Rosedale
+TEN0496,Health,Medical Supplies,Ambulance Procurement - Health,1746000,2024-12-24,2025-02-01,67,Open Tender,Eastwood
+TEN0497,Public Works,Medical Supplies,Pharmaceutical Supply - Public Works,2236000,2022-10-24,2022-11-20,39,Open Tender,Fairhaven
+TEN0498,Public Works,Office Supplies,Stationery Supply - Public Works,1211000,2023-03-31,2023-05-13,59,Limited Tender,Eastwood
+TEN0499,Public Works,IT Services,IT Infrastructure Upgrade - Public Works,6358000,2022-02-13,2022-03-26,91,Open Tender,Eastwood
+TEN0500,Health,IT Services,Software Development Services - Health,10105000,2022-03-10,2022-04-09,110,Limited Tender,Meridian City

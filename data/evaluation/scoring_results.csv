@@ -1,0 +1,501 @@
+tender_id,department,tender_category,estimated_value,contract_amount,price_ratio,bid_count,winning_vendor_id,vendor_age_days,has_shared_relationship,has_unusual_bid_pattern,score,review_priority,review_candidate,signals,explanation
+TEN0024,IT & Digital Services,Office Supplies,1404000,1846000,1.315,5,VEN0098,538,True,False,70,High,True,high_price;new_vendor;shared_relationship,"Contract amount is 1.31x the estimated value, above the 1.25x review threshold. Winning vendor VEN0098 was registered 538 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0098 shares a registered address or contact group with at least one other vendor."
+TEN0277,Health,Consulting,7298000,10431000,1.429,2,VEN0064,984,True,False,65,High,True,high_price;low_competition;shared_relationship,"Contract amount is 1.43x the estimated value, above the 1.25x review threshold. Only 2 bids were submitted for this tender. Winning vendor VEN0064 shares a registered address or contact group with at least one other vendor."
+TEN0292,Transport,Consulting,5788000,5431000,0.938,2,VEN0064,363,True,False,55,High,True,low_competition;new_vendor;shared_relationship,"Only 2 bids were submitted for this tender. Winning vendor VEN0064 was registered 363 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0064 shares a registered address or contact group with at least one other vendor."
+TEN0087,Education,Consulting,1278000,1176000,0.92,2,VEN0064,303,True,False,55,High,True,low_competition;new_vendor;shared_relationship,"Only 2 bids were submitted for this tender. Winning vendor VEN0064 was registered 303 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0064 shares a registered address or contact group with at least one other vendor."
+TEN0303,Health,Office Supplies,985000,900000,0.914,7,VEN0014,587,True,True,55,High,True,new_vendor;shared_relationship;unusual_bid_pattern,"Winning vendor VEN0014 was registered 587 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0014 shares a registered address or contact group with at least one other vendor. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0039,Health,Consulting,7623000,11235000,1.474,5,VEN0019,2947,True,False,50,High,True,high_price;shared_relationship,"Contract amount is 1.47x the estimated value, above the 1.25x review threshold. Winning vendor VEN0019 shares a registered address or contact group with at least one other vendor."
+TEN0021,Public Works,Medical Supplies,7564000,11795000,1.559,7,VEN0047,229,False,False,50,High,True,high_price;new_vendor,"Contract amount is 1.56x the estimated value, above the 1.25x review threshold. Winning vendor VEN0047 was registered 229 days before the tender date, within the 730-day recent-registration window."
+TEN0018,Education,Medical Supplies,1254000,1745000,1.392,6,VEN0114,92,False,False,50,High,True,high_price;new_vendor,"Contract amount is 1.39x the estimated value, above the 1.25x review threshold. Winning vendor VEN0114 was registered 92 days before the tender date, within the 730-day recent-registration window."
+TEN0121,Public Works,Construction,48017000,75711000,1.577,5,VEN0074,2303,True,False,50,High,True,high_price;shared_relationship,"Contract amount is 1.58x the estimated value, above the 1.25x review threshold. Winning vendor VEN0074 shares a registered address or contact group with at least one other vendor."
+TEN0112,IT & Digital Services,Consulting,1340000,2030000,1.515,6,VEN0037,71,False,False,50,High,True,high_price;new_vendor,"Contract amount is 1.51x the estimated value, above the 1.25x review threshold. Winning vendor VEN0037 was registered 71 days before the tender date, within the 730-day recent-registration window."
+TEN0168,Transport,IT Services,9516000,13794000,1.45,5,VEN0111,188,False,False,50,High,True,high_price;new_vendor,"Contract amount is 1.45x the estimated value, above the 1.25x review threshold. Winning vendor VEN0111 was registered 188 days before the tender date, within the 730-day recent-registration window."
+TEN0075,Transport,Office Supplies,684000,939000,1.373,2,VEN0099,-313,False,False,45,Medium,True,high_price;low_competition,"Contract amount is 1.37x the estimated value, above the 1.25x review threshold. Only 2 bids were submitted for this tender."
+TEN0027,Transport,Consulting,6072000,8951000,1.474,2,VEN0092,4848,False,False,45,Medium,True,high_price;low_competition,"Contract amount is 1.47x the estimated value, above the 1.25x review threshold. Only 2 bids were submitted for this tender."
+TEN0013,IT & Digital Services,Medical Supplies,1889000,2845000,1.506,8,VEN0047,-856,False,True,45,Medium,True,high_price;unusual_bid_pattern,"Contract amount is 1.51x the estimated value, above the 1.25x review threshold. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0475,IT & Digital Services,Office Supplies,1145000,1628000,1.422,2,VEN0015,3355,False,False,45,Medium,True,high_price;low_competition,"Contract amount is 1.42x the estimated value, above the 1.25x review threshold. Only 2 bids were submitted for this tender."
+TEN0307,Transport,Construction,29680000,44001000,1.483,6,VEN0036,3428,False,True,45,Medium,True,high_price;unusual_bid_pattern,"Contract amount is 1.48x the estimated value, above the 1.25x review threshold. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0249,Transport,Office Supplies,1048000,1466000,1.399,2,VEN0049,3544,False,False,45,Medium,True,high_price;low_competition,"Contract amount is 1.40x the estimated value, above the 1.25x review threshold. Only 2 bids were submitted for this tender."
+TEN0116,Education,Medical Supplies,527000,711000,1.349,2,VEN0030,3688,False,False,45,Medium,True,high_price;low_competition,"Contract amount is 1.35x the estimated value, above the 1.25x review threshold. Only 2 bids were submitted for this tender."
+TEN0115,IT & Digital Services,Construction,25061000,37787000,1.508,2,VEN0102,4065,False,False,45,Medium,True,high_price;low_competition,"Contract amount is 1.51x the estimated value, above the 1.25x review threshold. Only 2 bids were submitted for this tender."
+TEN0129,Health,Consulting,5078000,3808000,0.75,8,VEN0064,295,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0064 was registered 295 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0064 shares a registered address or contact group with at least one other vendor."
+TEN0089,Transport,Office Supplies,1950000,2258000,1.158,5,VEN0108,96,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0108 was registered 96 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0108 shares a registered address or contact group with at least one other vendor."
+TEN0423,Public Works,Consulting,977000,821000,0.84,3,VEN0064,75,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0064 was registered 75 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0064 shares a registered address or contact group with at least one other vendor."
+TEN0068,Education,Office Supplies,1969000,1719000,0.873,6,VEN0098,465,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0098 was registered 465 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0098 shares a registered address or contact group with at least one other vendor."
+TEN0226,Education,IT Services,3021000,2886000,0.955,4,VEN0096,699,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0096 was registered 699 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor."
+TEN0250,Education,Office Supplies,1070000,802000,0.75,5,VEN0108,206,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0108 was registered 206 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0108 shares a registered address or contact group with at least one other vendor."
+TEN0295,Transport,Office Supplies,1353000,1173000,0.867,7,VEN0013,544,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0013 was registered 544 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0013 shares a registered address or contact group with at least one other vendor."
+TEN0166,IT & Digital Services,Medical Supplies,1145000,859000,0.75,3,VEN0011,478,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0011 was registered 478 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0011 shares a registered address or contact group with at least one other vendor."
+TEN0479,Public Works,Construction,16921000,13092000,0.774,3,VEN0007,352,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0007 was registered 352 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0007 shares a registered address or contact group with at least one other vendor."
+TEN0201,IT & Digital Services,Office Supplies,1858000,1946000,1.047,6,VEN0108,477,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0108 was registered 477 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0108 shares a registered address or contact group with at least one other vendor."
+TEN0309,Transport,Office Supplies,1406000,1233000,0.877,5,VEN0013,455,True,False,40,Medium,True,new_vendor;shared_relationship,"Winning vendor VEN0013 was registered 455 days before the tender date, within the 730-day recent-registration window. Winning vendor VEN0013 shares a registered address or contact group with at least one other vendor."
+TEN0052,Public Works,Office Supplies,211000,168000,0.796,2,VEN0098,1520,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0098 shares a registered address or contact group with at least one other vendor.
+TEN0059,Public Works,IT Services,13923000,12179000,0.875,5,VEN0096,1221,True,True,35,Medium,True,shared_relationship;unusual_bid_pattern,"Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0025,Public Works,Consulting,4706000,4577000,0.973,2,VEN0019,3144,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0019 shares a registered address or contact group with at least one other vendor.
+TEN0400,IT & Digital Services,Construction,17253000,12940000,0.75,8,VEN0010,542,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0010 was registered 542 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0402,Transport,Construction,24061000,20683000,0.86,5,VEN0100,26,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0100 was registered 26 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0398,Public Works,Medical Supplies,7192000,6201000,0.862,2,VEN0057,1488,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0057 shares a registered address or contact group with at least one other vendor.
+TEN0111,Public Works,IT Services,5590000,5115000,0.915,2,VEN0077,417,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0077 was registered 417 days before the tender date, within the 730-day recent-registration window."
+TEN0316,Transport,Medical Supplies,3315000,2952000,0.89,8,VEN0079,4609,True,True,35,Medium,True,shared_relationship;unusual_bid_pattern,"Winning vendor VEN0079 shares a registered address or contact group with at least one other vendor. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0113,Health,Office Supplies,379000,284000,0.749,8,VEN0016,701,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0016 was registered 701 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0345,Health,Medical Supplies,590000,493000,0.836,2,VEN0034,174,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0034 was registered 174 days before the tender date, within the 730-day recent-registration window."
+TEN0132,Transport,Office Supplies,1780000,1650000,0.927,7,VEN0014,1744,True,True,35,Medium,True,shared_relationship;unusual_bid_pattern,"Winning vendor VEN0014 shares a registered address or contact group with at least one other vendor. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0304,IT & Digital Services,Medical Supplies,2242000,1895000,0.845,8,VEN0011,-597,True,True,35,Medium,True,shared_relationship;unusual_bid_pattern,"Winning vendor VEN0011 shares a registered address or contact group with at least one other vendor. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0442,Public Works,Consulting,493000,482000,0.978,2,VEN0090,476,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0090 was registered 476 days before the tender date, within the 730-day recent-registration window."
+TEN0444,IT & Digital Services,IT Services,8749000,7222000,0.825,5,VEN0053,660,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0053 was registered 660 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0064,Education,Office Supplies,787000,609000,0.774,6,VEN0098,1478,True,True,35,Medium,True,shared_relationship;unusual_bid_pattern,"Winning vendor VEN0098 shares a registered address or contact group with at least one other vendor. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0464,IT & Digital Services,Construction,2277000,2063000,0.906,5,VEN0010,105,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0010 was registered 105 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0051,Public Works,Construction,16776000,12835000,0.765,3,VEN0083,296,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0083 was registered 296 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0046,Education,Office Supplies,603000,552000,0.915,2,VEN0099,466,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0099 was registered 466 days before the tender date, within the 730-day recent-registration window."
+TEN0490,IT & Digital Services,Medical Supplies,3461000,3647000,1.054,2,VEN0079,4588,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0079 shares a registered address or contact group with at least one other vendor.
+TEN0062,Health,IT Services,8717000,8131000,0.933,2,VEN0111,147,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0111 was registered 147 days before the tender date, within the 730-day recent-registration window."
+TEN0405,Transport,IT Services,7621000,7618000,1.0,2,VEN0111,428,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0111 was registered 428 days before the tender date, within the 730-day recent-registration window."
+TEN0406,Transport,Consulting,2695000,2707000,1.004,7,VEN0046,381,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0046 was registered 381 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0079,Education,Consulting,7552000,6833000,0.905,7,VEN0090,419,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0090 was registered 419 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0417,Transport,Office Supplies,1835000,1942000,1.058,2,VEN0075,126,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0075 was registered 126 days before the tender date, within the 730-day recent-registration window."
+TEN0393,Public Works,IT Services,14782000,13890000,0.94,2,VEN0111,289,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0111 was registered 289 days before the tender date, within the 730-day recent-registration window."
+TEN0080,Education,Consulting,5570000,4892000,0.878,7,VEN0019,2302,True,True,35,Medium,True,shared_relationship;unusual_bid_pattern,"Winning vendor VEN0019 shares a registered address or contact group with at least one other vendor. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0429,Health,Construction,10089000,9458000,0.937,2,VEN0117,4975,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0117 shares a registered address or contact group with at least one other vendor.
+TEN0038,IT & Digital Services,Medical Supplies,8376000,6554000,0.782,8,VEN0004,212,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0004 was registered 212 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0037,Public Works,Construction,5560000,4453000,0.801,2,VEN0083,594,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0083 was registered 594 days before the tender date, within the 730-day recent-registration window."
+TEN0296,Health,Consulting,1589000,1424000,0.896,2,VEN0084,615,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0084 was registered 615 days before the tender date, within the 730-day recent-registration window."
+TEN0173,Transport,IT Services,13133000,13022000,0.992,2,VEN0078,1496,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0078 shares a registered address or contact group with at least one other vendor.
+TEN0134,Education,Medical Supplies,2700000,2638000,0.977,2,VEN0047,85,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0047 was registered 85 days before the tender date, within the 730-day recent-registration window."
+TEN0286,Public Works,Consulting,2313000,2603000,1.125,2,VEN0046,620,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0046 was registered 620 days before the tender date, within the 730-day recent-registration window."
+TEN0269,Education,Consulting,5419000,5365000,0.99,2,VEN0028,331,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0028 was registered 331 days before the tender date, within the 730-day recent-registration window."
+TEN0265,Transport,Construction,44761000,40763000,0.911,4,VEN0010,42,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0010 was registered 42 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0349,Public Works,Construction,45511000,49519000,1.088,2,VEN0052,481,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0052 was registered 481 days before the tender date, within the 730-day recent-registration window."
+TEN0383,IT & Digital Services,Construction,39112000,32968000,0.843,2,VEN0074,2344,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0074 shares a registered address or contact group with at least one other vendor.
+TEN0106,Transport,Consulting,1991000,1852000,0.93,2,VEN0028,20,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0028 was registered 20 days before the tender date, within the 730-day recent-registration window."
+TEN0482,Education,Construction,5256000,4946000,0.941,7,VEN0100,54,False,True,35,Medium,True,new_vendor;unusual_bid_pattern,"Winning vendor VEN0100 was registered 54 days before the tender date, within the 730-day recent-registration window. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0220,Education,Construction,34109000,32145000,0.942,2,VEN0033,1851,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0033 shares a registered address or contact group with at least one other vendor.
+TEN0233,Education,Medical Supplies,4801000,4694000,0.978,2,VEN0004,350,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0004 was registered 350 days before the tender date, within the 730-day recent-registration window."
+TEN0323,Health,Construction,20785000,17370000,0.836,2,VEN0033,1480,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0033 shares a registered address or contact group with at least one other vendor.
+TEN0320,Transport,Medical Supplies,8776000,7135000,0.813,7,VEN0079,3962,True,True,35,Medium,True,shared_relationship;unusual_bid_pattern,"Winning vendor VEN0079 shares a registered address or contact group with at least one other vendor. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0364,Health,Medical Supplies,8895000,10283000,1.156,2,VEN0034,117,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0034 was registered 117 days before the tender date, within the 730-day recent-registration window."
+TEN0009,Education,IT Services,12863000,12842000,0.998,8,VEN0078,2063,True,True,35,Medium,True,shared_relationship;unusual_bid_pattern,"Winning vendor VEN0078 shares a registered address or contact group with at least one other vendor. Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0476,Transport,Medical Supplies,1022000,766000,0.75,2,VEN0029,2239,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0029 shares a registered address or contact group with at least one other vendor.
+TEN0217,IT & Digital Services,Medical Supplies,632000,598000,0.946,2,VEN0113,567,False,False,35,Medium,True,low_competition;new_vendor,"Only 2 bids were submitted for this tender. Winning vendor VEN0113 was registered 567 days before the tender date, within the 730-day recent-registration window."
+TEN0242,Transport,Consulting,7984000,7466000,0.935,2,VEN0064,946,True,False,35,Medium,True,low_competition;shared_relationship,Only 2 bids were submitted for this tender. Winning vendor VEN0064 shares a registered address or contact group with at least one other vendor.
+TEN0438,Public Works,IT Services,12821000,20207000,1.576,3,VEN0044,5110,False,False,30,Medium,True,high_price,"Contract amount is 1.58x the estimated value, above the 1.25x review threshold."
+TEN0450,Public Works,IT Services,11719000,17418000,1.486,8,VEN0066,2955,False,False,30,Medium,True,high_price,"Contract amount is 1.49x the estimated value, above the 1.25x review threshold."
+TEN0436,Education,Office Supplies,259000,411000,1.587,4,VEN0080,1934,False,False,30,Medium,True,high_price,"Contract amount is 1.59x the estimated value, above the 1.25x review threshold."
+TEN0354,Health,IT Services,14617000,21495000,1.471,3,VEN0068,-953,False,False,30,Medium,True,high_price,"Contract amount is 1.47x the estimated value, above the 1.25x review threshold."
+TEN0315,IT & Digital Services,IT Services,4383000,6728000,1.535,4,VEN0066,1841,False,False,30,Medium,True,high_price,"Contract amount is 1.54x the estimated value, above the 1.25x review threshold."
+TEN0463,Health,Office Supplies,1836000,2810000,1.531,4,VEN0059,757,False,False,30,Medium,True,high_price,"Contract amount is 1.53x the estimated value, above the 1.25x review threshold."
+TEN0283,Public Works,Consulting,3600000,5283000,1.468,7,VEN0061,5079,False,False,30,Medium,True,high_price,"Contract amount is 1.47x the estimated value, above the 1.25x review threshold."
+TEN0138,IT & Digital Services,Office Supplies,1226000,1836000,1.498,7,VEN0075,-646,False,False,30,Medium,True,high_price,"Contract amount is 1.50x the estimated value, above the 1.25x review threshold."
+TEN0070,Education,IT Services,3331000,5004000,1.502,3,VEN0032,4431,False,False,30,Medium,True,high_price,"Contract amount is 1.50x the estimated value, above the 1.25x review threshold."
+TEN0396,Public Works,Construction,3013000,2281000,0.757,5,VEN0074,1374,True,False,20,Low,False,shared_relationship,Winning vendor VEN0074 shares a registered address or contact group with at least one other vendor.
+TEN0394,Education,Medical Supplies,9732000,7299000,0.75,4,VEN0054,4236,True,False,20,Low,False,shared_relationship,Winning vendor VEN0054 shares a registered address or contact group with at least one other vendor.
+TEN0047,Transport,Office Supplies,1389000,1042000,0.75,4,VEN0085,3474,True,False,20,Low,False,shared_relationship,Winning vendor VEN0085 shares a registered address or contact group with at least one other vendor.
+TEN0049,IT & Digital Services,Medical Supplies,6724000,5043000,0.75,3,VEN0004,99,False,False,20,Low,False,new_vendor,"Winning vendor VEN0004 was registered 99 days before the tender date, within the 730-day recent-registration window."
+TEN0040,Education,Office Supplies,1092000,945000,0.865,7,VEN0098,1512,True,False,20,Low,False,shared_relationship,Winning vendor VEN0098 shares a registered address or contact group with at least one other vendor.
+TEN0045,IT & Digital Services,Office Supplies,1809000,1619000,0.895,4,VEN0014,1473,True,False,20,Low,False,shared_relationship,Winning vendor VEN0014 shares a registered address or contact group with at least one other vendor.
+TEN0447,Health,IT Services,10713000,10848000,1.013,5,VEN0096,2003,True,False,20,Low,False,shared_relationship,Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor.
+TEN0448,Transport,Construction,19742000,21859000,1.107,6,VEN0100,693,False,False,20,Low,False,new_vendor,"Winning vendor VEN0100 was registered 693 days before the tender date, within the 730-day recent-registration window."
+TEN0449,IT & Digital Services,Medical Supplies,1734000,1348000,0.777,8,VEN0076,299,False,False,20,Low,False,new_vendor,"Winning vendor VEN0076 was registered 299 days before the tender date, within the 730-day recent-registration window."
+TEN0452,Public Works,IT Services,14007000,13511000,0.965,4,VEN0077,409,False,False,20,Low,False,new_vendor,"Winning vendor VEN0077 was registered 409 days before the tender date, within the 730-day recent-registration window."
+TEN0497,Public Works,Medical Supplies,2236000,1989000,0.89,3,VEN0065,157,False,False,20,Low,False,new_vendor,"Winning vendor VEN0065 was registered 157 days before the tender date, within the 730-day recent-registration window."
+TEN0008,IT & Digital Services,Medical Supplies,9479000,7109000,0.75,7,VEN0054,4386,True,False,20,Low,False,shared_relationship,Winning vendor VEN0054 shares a registered address or contact group with at least one other vendor.
+TEN0081,Health,Construction,11191000,9300000,0.831,6,VEN0083,278,False,False,20,Low,False,new_vendor,"Winning vendor VEN0083 was registered 278 days before the tender date, within the 730-day recent-registration window."
+TEN0414,Education,Office Supplies,1358000,1183000,0.871,7,VEN0051,479,False,False,20,Low,False,new_vendor,"Winning vendor VEN0051 was registered 479 days before the tender date, within the 730-day recent-registration window."
+TEN0430,Education,Construction,32791000,29224000,0.891,7,VEN0120,86,False,False,20,Low,False,new_vendor,"Winning vendor VEN0120 was registered 86 days before the tender date, within the 730-day recent-registration window."
+TEN0431,Health,Construction,47009000,39403000,0.838,6,VEN0117,4313,True,False,20,Low,False,shared_relationship,Winning vendor VEN0117 shares a registered address or contact group with at least one other vendor.
+TEN0072,Public Works,IT Services,4699000,4054000,0.863,8,VEN0096,1177,True,False,20,Low,False,shared_relationship,Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor.
+TEN0077,Public Works,Construction,28964000,26781000,0.925,5,VEN0033,2082,True,False,20,Low,False,shared_relationship,Winning vendor VEN0033 shares a registered address or contact group with at least one other vendor.
+TEN0424,Public Works,Office Supplies,1452000,1199000,0.826,5,VEN0013,761,True,False,20,Low,False,shared_relationship,Winning vendor VEN0013 shares a registered address or contact group with at least one other vendor.
+TEN0065,Transport,Medical Supplies,9627000,8066000,0.838,7,VEN0079,4421,True,False,20,Low,False,shared_relationship,Winning vendor VEN0079 shares a registered address or contact group with at least one other vendor.
+TEN0058,Public Works,IT Services,13188000,12168000,0.923,7,VEN0096,1570,True,False,20,Low,False,shared_relationship,Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor.
+TEN0060,Health,IT Services,13787000,10648000,0.772,7,VEN0077,694,False,False,20,Low,False,new_vendor,"Winning vendor VEN0077 was registered 694 days before the tender date, within the 730-day recent-registration window."
+TEN0427,Transport,IT Services,7884000,6002000,0.761,6,VEN0068,95,False,False,20,Low,False,new_vendor,"Winning vendor VEN0068 was registered 95 days before the tender date, within the 730-day recent-registration window."
+TEN0426,Transport,IT Services,3450000,2981000,0.864,7,VEN0111,260,False,False,20,Low,False,new_vendor,"Winning vendor VEN0111 was registered 260 days before the tender date, within the 730-day recent-registration window."
+TEN0428,IT & Digital Services,Office Supplies,1901000,1525000,0.802,4,VEN0107,370,False,False,20,Low,False,new_vendor,"Winning vendor VEN0107 was registered 370 days before the tender date, within the 730-day recent-registration window."
+TEN0492,Health,Construction,30569000,23045000,0.754,4,VEN0117,4363,True,False,20,Low,False,shared_relationship,Winning vendor VEN0117 shares a registered address or contact group with at least one other vendor.
+TEN0459,IT & Digital Services,Medical Supplies,9034000,9674000,1.071,6,VEN0114,189,False,False,20,Low,False,new_vendor,"Winning vendor VEN0114 was registered 189 days before the tender date, within the 730-day recent-registration window."
+TEN0460,Public Works,IT Services,10965000,10624000,0.969,4,VEN0096,1493,True,False,20,Low,False,shared_relationship,Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor.
+TEN0032,Public Works,Office Supplies,726000,600000,0.826,3,VEN0075,17,False,False,20,Low,False,new_vendor,"Winning vendor VEN0075 was registered 17 days before the tender date, within the 730-day recent-registration window."
+TEN0471,Health,Medical Supplies,2243000,1682000,0.75,7,VEN0027,2834,True,False,20,Low,False,shared_relationship,Winning vendor VEN0027 shares a registered address or contact group with at least one other vendor.
+TEN0028,Health,Construction,36464000,28797000,0.79,6,VEN0074,2333,True,False,20,Low,False,shared_relationship,Winning vendor VEN0074 shares a registered address or contact group with at least one other vendor.
+TEN0494,Public Works,Office Supplies,266000,252000,0.947,4,VEN0075,19,False,False,20,Low,False,new_vendor,"Winning vendor VEN0075 was registered 19 days before the tender date, within the 730-day recent-registration window."
+TEN0455,Health,IT Services,5827000,5988000,1.028,6,VEN0078,1394,True,False,20,Low,False,shared_relationship,Winning vendor VEN0078 shares a registered address or contact group with at least one other vendor.
+TEN0454,IT & Digital Services,Medical Supplies,7268000,5644000,0.777,6,VEN0031,82,False,False,20,Low,False,new_vendor,"Winning vendor VEN0031 was registered 82 days before the tender date, within the 730-day recent-registration window."
+TEN0334,Health,IT Services,9629000,8862000,0.92,7,VEN0111,261,False,False,20,Low,False,new_vendor,"Winning vendor VEN0111 was registered 261 days before the tender date, within the 730-day recent-registration window."
+TEN0326,IT & Digital Services,Office Supplies,490000,426000,0.869,5,VEN0098,1707,True,False,20,Low,False,shared_relationship,Winning vendor VEN0098 shares a registered address or contact group with at least one other vendor.
+TEN0325,Public Works,Construction,23913000,18566000,0.776,5,VEN0087,444,False,False,20,Low,False,new_vendor,"Winning vendor VEN0087 was registered 444 days before the tender date, within the 730-day recent-registration window."
+TEN0344,Health,Office Supplies,1598000,1202000,0.752,7,VEN0075,4,False,False,20,Low,False,new_vendor,"Winning vendor VEN0075 was registered 4 days before the tender date, within the 730-day recent-registration window."
+TEN0341,Public Works,Consulting,5578000,5039000,0.903,8,VEN0064,965,True,False,20,Low,False,shared_relationship,Winning vendor VEN0064 shares a registered address or contact group with at least one other vendor.
+TEN0343,IT & Digital Services,Consulting,3517000,2638000,0.75,8,VEN0019,2691,True,False,20,Low,False,shared_relationship,Winning vendor VEN0019 shares a registered address or contact group with at least one other vendor.
+TEN0361,Public Works,Consulting,4531000,3914000,0.864,7,VEN0019,3237,True,False,20,Low,False,shared_relationship,Winning vendor VEN0019 shares a registered address or contact group with at least one other vendor.
+TEN0375,Health,Consulting,7863000,7356000,0.936,4,VEN0067,3051,True,False,20,Low,False,shared_relationship,Winning vendor VEN0067 shares a registered address or contact group with at least one other vendor.
+TEN0308,Public Works,Consulting,7736000,6417000,0.829,6,VEN0064,1035,True,False,20,Low,False,shared_relationship,Winning vendor VEN0064 shares a registered address or contact group with at least one other vendor.
+TEN0305,Public Works,Consulting,5234000,4842000,0.925,8,VEN0064,1251,True,False,20,Low,False,shared_relationship,Winning vendor VEN0064 shares a registered address or contact group with at least one other vendor.
+TEN0301,IT & Digital Services,IT Services,4613000,4218000,0.914,3,VEN0077,119,False,False,20,Low,False,new_vendor,"Winning vendor VEN0077 was registered 119 days before the tender date, within the 730-day recent-registration window."
+TEN0300,Public Works,Consulting,2314000,2014000,0.87,3,VEN0037,109,False,False,20,Low,False,new_vendor,"Winning vendor VEN0037 was registered 109 days before the tender date, within the 730-day recent-registration window."
+TEN0140,Education,Construction,30366000,29258000,0.964,4,VEN0045,333,False,False,20,Low,False,new_vendor,"Winning vendor VEN0045 was registered 333 days before the tender date, within the 730-day recent-registration window."
+TEN0142,Public Works,Consulting,7455000,6431000,0.863,7,VEN0019,2777,True,False,20,Low,False,shared_relationship,Winning vendor VEN0019 shares a registered address or contact group with at least one other vendor.
+TEN0297,Health,Consulting,3192000,2568000,0.805,8,VEN0012,720,False,False,20,Low,False,new_vendor,"Winning vendor VEN0012 was registered 720 days before the tender date, within the 730-day recent-registration window."
+TEN0299,IT & Digital Services,Consulting,6451000,6550000,1.015,3,VEN0067,2705,True,False,20,Low,False,shared_relationship,Winning vendor VEN0067 shares a registered address or contact group with at least one other vendor.
+TEN0136,IT & Digital Services,Office Supplies,145000,117000,0.807,6,VEN0025,258,False,False,20,Low,False,new_vendor,"Winning vendor VEN0025 was registered 258 days before the tender date, within the 730-day recent-registration window."
+TEN0124,Health,Construction,20449000,15337000,0.75,4,VEN0007,1779,True,False,20,Low,False,shared_relationship,Winning vendor VEN0007 shares a registered address or contact group with at least one other vendor.
+TEN0311,Education,Consulting,6659000,5580000,0.838,7,VEN0012,560,False,False,20,Low,False,new_vendor,"Winning vendor VEN0012 was registered 560 days before the tender date, within the 730-day recent-registration window."
+TEN0318,IT & Digital Services,Consulting,1466000,1381000,0.942,3,VEN0084,726,False,False,20,Low,False,new_vendor,"Winning vendor VEN0084 was registered 726 days before the tender date, within the 730-day recent-registration window."
+TEN0319,Transport,Consulting,1060000,823000,0.776,4,VEN0046,445,False,False,20,Low,False,new_vendor,"Winning vendor VEN0046 was registered 445 days before the tender date, within the 730-day recent-registration window."
+TEN0321,IT & Digital Services,Office Supplies,1253000,940000,0.75,3,VEN0112,2912,True,False,20,Low,False,shared_relationship,Winning vendor VEN0112 shares a registered address or contact group with at least one other vendor.
+TEN0324,IT & Digital Services,IT Services,13774000,10755000,0.781,5,VEN0096,1350,True,False,20,Low,False,shared_relationship,Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor.
+TEN0294,IT & Digital Services,IT Services,771000,686000,0.89,5,VEN0053,724,False,False,20,Low,False,new_vendor,"Winning vendor VEN0053 was registered 724 days before the tender date, within the 730-day recent-registration window."
+TEN0102,Health,Construction,18608000,15113000,0.812,8,VEN0010,36,False,False,20,Low,False,new_vendor,"Winning vendor VEN0010 was registered 36 days before the tender date, within the 730-day recent-registration window."
+TEN0362,Transport,Medical Supplies,3635000,2887000,0.794,8,VEN0054,4595,True,False,20,Low,False,shared_relationship,Winning vendor VEN0054 shares a registered address or contact group with at least one other vendor.
+TEN0386,IT & Digital Services,Office Supplies,814000,661000,0.812,8,VEN0062,3974,True,False,20,Low,False,shared_relationship,Winning vendor VEN0062 shares a registered address or contact group with at least one other vendor.
+TEN0385,Health,Office Supplies,1542000,1381000,0.896,7,VEN0089,3922,True,False,20,Low,False,shared_relationship,Winning vendor VEN0089 shares a registered address or contact group with at least one other vendor.
+TEN0379,Education,IT Services,2062000,1758000,0.853,3,VEN0022,140,False,False,20,Low,False,new_vendor,"Winning vendor VEN0022 was registered 140 days before the tender date, within the 730-day recent-registration window."
+TEN0384,Education,Medical Supplies,4458000,3673000,0.824,7,VEN0027,2148,True,False,20,Low,False,shared_relationship,Winning vendor VEN0027 shares a registered address or contact group with at least one other vendor.
+TEN0376,Public Works,Medical Supplies,4639000,3681000,0.793,8,VEN0031,112,False,False,20,Low,False,new_vendor,"Winning vendor VEN0031 was registered 112 days before the tender date, within the 730-day recent-registration window."
+TEN0377,Education,IT Services,9087000,8744000,0.962,7,VEN0111,85,False,False,20,Low,False,new_vendor,"Winning vendor VEN0111 was registered 85 days before the tender date, within the 730-day recent-registration window."
+TEN0163,IT & Digital Services,Medical Supplies,7825000,7192000,0.919,3,VEN0011,-888,True,False,20,Low,False,shared_relationship,Winning vendor VEN0011 shares a registered address or contact group with at least one other vendor.
+TEN0159,Public Works,Construction,27983000,26766000,0.957,4,VEN0087,164,False,False,20,Low,False,new_vendor,"Winning vendor VEN0087 was registered 164 days before the tender date, within the 730-day recent-registration window."
+TEN0160,Education,Medical Supplies,4834000,4029000,0.833,7,VEN0029,3356,True,False,20,Low,False,shared_relationship,Winning vendor VEN0029 shares a registered address or contact group with at least one other vendor.
+TEN0162,Health,Office Supplies,689000,829000,1.203,5,VEN0051,150,False,False,20,Low,False,new_vendor,"Winning vendor VEN0051 was registered 150 days before the tender date, within the 730-day recent-registration window."
+TEN0153,Education,IT Services,9302000,8671000,0.932,3,VEN0022,169,False,False,20,Low,False,new_vendor,"Winning vendor VEN0022 was registered 169 days before the tender date, within the 730-day recent-registration window."
+TEN0290,IT & Digital Services,IT Services,6927000,5867000,0.847,3,VEN0096,1246,True,False,20,Low,False,shared_relationship,Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor.
+TEN0285,Public Works,IT Services,13540000,10155000,0.75,5,VEN0096,1515,True,False,20,Low,False,shared_relationship,Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor.
+TEN0281,Public Works,Office Supplies,1995000,1868000,0.936,5,VEN0062,4745,True,False,20,Low,False,shared_relationship,Winning vendor VEN0062 shares a registered address or contact group with at least one other vendor.
+TEN0216,Transport,Office Supplies,776000,646000,0.832,4,VEN0016,104,False,False,20,Low,False,new_vendor,"Winning vendor VEN0016 was registered 104 days before the tender date, within the 730-day recent-registration window."
+TEN0240,IT & Digital Services,Medical Supplies,3612000,3390000,0.939,5,VEN0011,-602,True,False,20,Low,False,shared_relationship,Winning vendor VEN0011 shares a registered address or contact group with at least one other vendor.
+TEN0236,Transport,Consulting,5690000,4814000,0.846,4,VEN0093,535,False,False,20,Low,False,new_vendor,"Winning vendor VEN0093 was registered 535 days before the tender date, within the 730-day recent-registration window."
+TEN0232,Transport,Office Supplies,1409000,1397000,0.991,5,VEN0025,310,False,False,20,Low,False,new_vendor,"Winning vendor VEN0025 was registered 310 days before the tender date, within the 730-day recent-registration window."
+TEN0257,Public Works,Office Supplies,1855000,1477000,0.796,8,VEN0085,3147,True,False,20,Low,False,shared_relationship,Winning vendor VEN0085 shares a registered address or contact group with at least one other vendor.
+TEN0231,Health,Consulting,3578000,2752000,0.769,8,VEN0035,228,False,False,20,Low,False,new_vendor,"Winning vendor VEN0035 was registered 228 days before the tender date, within the 730-day recent-registration window."
+TEN0180,Health,Medical Supplies,791000,776000,0.981,7,VEN0004,192,False,False,20,Low,False,new_vendor,"Winning vendor VEN0004 was registered 192 days before the tender date, within the 730-day recent-registration window."
+TEN0251,Education,IT Services,2072000,2185000,1.055,3,VEN0077,210,False,False,20,Low,False,new_vendor,"Winning vendor VEN0077 was registered 210 days before the tender date, within the 730-day recent-registration window."
+TEN0273,Health,Consulting,5078000,4322000,0.851,4,VEN0101,4337,True,False,20,Low,False,shared_relationship,Winning vendor VEN0101 shares a registered address or contact group with at least one other vendor.
+TEN0178,Transport,Medical Supplies,5373000,5120000,0.953,8,VEN0029,1970,True,False,20,Low,False,shared_relationship,Winning vendor VEN0029 shares a registered address or contact group with at least one other vendor.
+TEN0287,IT & Digital Services,Consulting,5778000,4334000,0.75,8,VEN0012,351,False,False,20,Low,False,new_vendor,"Winning vendor VEN0012 was registered 351 days before the tender date, within the 730-day recent-registration window."
+TEN0158,Transport,Consulting,6566000,4986000,0.759,6,VEN0101,5164,True,False,20,Low,False,shared_relationship,Winning vendor VEN0101 shares a registered address or contact group with at least one other vendor.
+TEN0186,Transport,IT Services,7461000,6989000,0.937,4,VEN0096,961,True,False,20,Low,False,shared_relationship,Winning vendor VEN0096 shares a registered address or contact group with at least one other vendor.
+TEN0198,Transport,Consulting,396000,297000,0.75,6,VEN0028,115,False,False,20,Low,False,new_vendor,"Winning vendor VEN0028 was registered 115 days before the tender date, within the 730-day recent-registration window."
+TEN0228,Transport,Construction,44568000,46343000,1.04,6,VEN0100,93,False,False,20,Low,False,new_vendor,"Winning vendor VEN0100 was registered 93 days before the tender date, within the 730-day recent-registration window."
+TEN0223,Transport,Office Supplies,1401000,1205000,0.86,4,VEN0062,4951,True,False,20,Low,False,shared_relationship,Winning vendor VEN0062 shares a registered address or contact group with at least one other vendor.
+TEN0212,Health,Office Supplies,116000,120000,1.034,7,VEN0075,27,False,False,20,Low,False,new_vendor,"Winning vendor VEN0075 was registered 27 days before the tender date, within the 730-day recent-registration window."
+TEN0202,Health,Medical Supplies,3787000,3452000,0.912,3,VEN0005,574,False,False,20,Low,False,new_vendor,"Winning vendor VEN0005 was registered 574 days before the tender date, within the 730-day recent-registration window."
+TEN0200,Transport,Construction,41549000,40734000,0.98,5,VEN0007,1333,True,False,20,Low,False,shared_relationship,Winning vendor VEN0007 shares a registered address or contact group with at least one other vendor.
+TEN0165,IT & Digital Services,IT Services,1048000,786000,0.75,8,VEN0022,146,False,False,20,Low,False,new_vendor,"Winning vendor VEN0022 was registered 146 days before the tender date, within the 730-day recent-registration window."
+TEN0191,IT & Digital Services,Consulting,2898000,2483000,0.857,3,VEN0084,391,False,False,20,Low,False,new_vendor,"Winning vendor VEN0084 was registered 391 days before the tender date, within the 730-day recent-registration window."
+TEN0196,Health,Construction,30936000,33399000,1.08,7,VEN0007,767,True,False,20,Low,False,shared_relationship,Winning vendor VEN0007 shares a registered address or contact group with at least one other vendor.
+TEN0199,Education,Consulting,5939000,4961000,0.835,6,VEN0019,3109,True,False,20,Low,False,shared_relationship,Winning vendor VEN0019 shares a registered address or contact group with at least one other vendor.
+TEN0012,Health,Consulting,3684000,3172000,0.861,3,VEN0067,2881,True,False,20,Low,False,shared_relationship,Winning vendor VEN0067 shares a registered address or contact group with at least one other vendor.
+TEN0472,Health,Medical Supplies,8148000,7197000,0.883,5,VEN0057,1974,True,False,20,Low,False,shared_relationship,Winning vendor VEN0057 shares a registered address or contact group with at least one other vendor.
+TEN0486,IT & Digital Services,Construction,29551000,28420000,0.962,6,VEN0120,575,False,False,20,Low,False,new_vendor,"Winning vendor VEN0120 was registered 575 days before the tender date, within the 730-day recent-registration window."
+TEN0020,Education,Medical Supplies,3915000,3272000,0.836,8,VEN0114,19,False,False,20,Low,False,new_vendor,"Winning vendor VEN0114 was registered 19 days before the tender date, within the 730-day recent-registration window."
+TEN0019,Transport,IT Services,2582000,1949000,0.755,7,VEN0053,585,False,False,20,Low,False,new_vendor,"Winning vendor VEN0053 was registered 585 days before the tender date, within the 730-day recent-registration window."
+TEN0478,Public Works,IT Services,14849000,11726000,0.79,6,VEN0111,372,False,False,20,Low,False,new_vendor,"Winning vendor VEN0111 was registered 372 days before the tender date, within the 730-day recent-registration window."
+TEN0484,IT & Digital Services,Office Supplies,163000,141000,0.865,3,VEN0112,3820,True,False,20,Low,False,shared_relationship,Winning vendor VEN0112 shares a registered address or contact group with at least one other vendor.
+TEN0003,Education,Construction,15891000,13216000,0.832,5,VEN0010,381,False,False,20,Low,False,new_vendor,"Winning vendor VEN0010 was registered 381 days before the tender date, within the 730-day recent-registration window."
+TEN0002,Transport,Medical Supplies,3844000,3997000,1.04,4,VEN0057,2212,True,False,20,Low,False,shared_relationship,Winning vendor VEN0057 shares a registered address or contact group with at least one other vendor.
+TEN0499,Public Works,IT Services,6358000,5815000,0.915,6,VEN0063,1937,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0496,Health,Medical Supplies,1746000,1310000,0.75,6,VEN0005,1229,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0489,IT & Digital Services,Medical Supplies,2391000,1917000,0.802,2,VEN0020,2422,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0481,Education,Construction,10340000,8882000,0.859,7,VEN0100,-569,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0446,Education,Medical Supplies,7544000,7397000,0.981,2,VEN0116,4377,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0445,Public Works,Construction,29204000,21903000,0.75,7,VEN0056,2221,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0195,Education,Office Supplies,1082000,1002000,0.926,2,VEN0050,2945,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0194,Transport,Medical Supplies,7491000,7152000,0.955,2,VEN0047,-645,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0192,IT & Digital Services,IT Services,6732000,5846000,0.868,7,VEN0097,4918,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0190,Health,Construction,29524000,28849000,0.977,2,VEN0058,4798,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0467,Education,Consulting,1606000,1550000,0.965,2,VEN0038,735,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0466,Public Works,Medical Supplies,6855000,7453000,1.087,2,VEN0004,-913,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0443,IT & Digital Services,IT Services,2165000,2322000,1.073,5,VEN0066,2273,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0441,Transport,Construction,40247000,36539000,0.908,8,VEN0104,1673,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0022,IT & Digital Services,Office Supplies,1551000,1237000,0.798,2,VEN0049,4570,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0041,Education,IT Services,3579000,3353000,0.937,2,VEN0044,4043,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0439,IT & Digital Services,Medical Supplies,3706000,3636000,0.981,2,VEN0116,4970,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0074,Health,IT Services,10140000,9281000,0.915,2,VEN0077,1174,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0227,Health,Office Supplies,693000,680000,0.981,8,VEN0042,1048,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0221,Health,Office Supplies,139000,124000,0.892,7,VEN0080,2266,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0218,IT & Digital Services,Consulting,5446000,5614000,1.031,2,VEN0081,-712,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0213,Transport,IT Services,654000,507000,0.775,2,VEN0097,4275,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0244,Education,Medical Supplies,8471000,8241000,0.973,2,VEN0021,4118,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0210,Transport,Office Supplies,1877000,1408000,0.75,2,VEN0002,1149,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0209,Education,Office Supplies,1344000,1248000,0.929,2,VEN0106,-172,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0432,Public Works,Construction,22000000,17124000,0.778,2,VEN0052,-35,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0067,Transport,Office Supplies,619000,484000,0.782,7,VEN0050,3214,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0063,Transport,Office Supplies,1138000,1078000,0.947,7,VEN0015,3123,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0056,Transport,Medical Supplies,4367000,4142000,0.948,2,VEN0115,3993,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0413,Health,Consulting,813000,610000,0.75,2,VEN0081,-1390,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0410,IT & Digital Services,IT Services,6544000,6366000,0.973,2,VEN0053,770,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0055,IT & Digital Services,Consulting,7350000,6263000,0.852,7,VEN0024,4515,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0054,Public Works,Construction,42362000,36926000,0.872,2,VEN0058,4272,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0083,Health,Medical Supplies,4600000,4229000,0.919,5,VEN0073,3359,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0374,Public Works,Construction,4092000,3633000,0.888,2,VEN0058,4382,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0238,Education,Consulting,3247000,3225000,0.993,2,VEN0092,5222,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0234,IT & Digital Services,IT Services,12286000,10914000,0.888,2,VEN0077,901,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0230,IT & Digital Services,Consulting,1036000,839000,0.81,2,VEN0048,2076,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0188,Health,Construction,10373000,10182000,0.982,8,VEN0036,2434,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0185,Health,Consulting,3185000,2631000,0.826,2,VEN0061,4795,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0392,IT & Digital Services,Medical Supplies,6960000,5948000,0.855,6,VEN0115,4194,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0071,Transport,Construction,37341000,32126000,0.86,5,VEN0041,3318,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0100,Public Works,Consulting,1296000,1141000,0.88,7,VEN0093,932,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0098,Health,Consulting,5090000,4273000,0.839,8,VEN0095,1080,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0372,Education,IT Services,14318000,13009000,0.909,8,VEN0063,2820,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0370,Public Works,Consulting,5443000,5167000,0.949,2,VEN0084,1037,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0360,Transport,Consulting,1192000,1190000,0.998,2,VEN0061,5222,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0357,IT & Digital Services,Office Supplies,1496000,1291000,0.863,8,VEN0059,1554,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0382,Health,IT Services,10360000,9258000,0.894,5,VEN0097,4557,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0351,Health,Consulting,4149000,3640000,0.877,2,VEN0035,-925,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0179,Education,Consulting,5354000,4710000,0.88,2,VEN0061,4787,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0170,IT & Digital Services,Medical Supplies,7623000,6580000,0.863,2,VEN0091,-1017,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0247,Public Works,Construction,8661000,8486000,0.98,7,VEN0052,-664,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0243,IT & Digital Services,Office Supplies,1460000,1290000,0.884,3,VEN0110,4830,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0239,Public Works,Office Supplies,550000,593000,1.078,2,VEN0110,4947,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0347,Transport,Consulting,6026000,5494000,0.912,2,VEN0090,1514,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0114,Education,Medical Supplies,5003000,3992000,0.798,5,VEN0076,1175,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0104,Education,IT Services,3919000,3995000,1.019,2,VEN0088,4539,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0342,Education,Construction,5551000,4780000,0.861,7,VEN0087,-143,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0336,IT & Digital Services,Construction,45015000,42386000,0.942,3,VEN0104,1688,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0331,Health,Construction,8307000,9100000,1.095,2,VEN0036,2677,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0330,Health,Consulting,3885000,3222000,0.829,6,VEN0012,-47,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0329,Transport,IT Services,14368000,15486000,1.078,2,VEN0068,-582,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0328,Health,Consulting,4476000,4566000,1.02,2,VEN0103,3297,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0356,Public Works,Construction,18391000,17190000,0.935,7,VEN0041,3236,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0353,Health,Office Supplies,1705000,1660000,0.974,2,VEN0071,1642,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0313,Health,Consulting,2432000,2391000,0.983,5,VEN0061,4942,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0133,Transport,Office Supplies,1445000,1236000,0.855,2,VEN0003,2245,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0164,Education,Medical Supplies,1399000,1187000,0.848,2,VEN0021,3844,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0161,Transport,Construction,4269000,3873000,0.907,2,VEN0100,-98,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0312,Education,Construction,5876000,5404000,0.92,2,VEN0041,2994,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0131,IT & Digital Services,Office Supplies,144000,111000,0.771,8,VEN0026,2089,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0130,Health,Construction,6672000,5303000,0.795,6,VEN0041,3159,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0127,Public Works,IT Services,7299000,6424000,0.88,8,VEN0068,-1205,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0125,Public Works,Consulting,6826000,5574000,0.817,2,VEN0038,1516,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0310,Transport,Consulting,4530000,3702000,0.817,2,VEN0028,1255,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0302,Transport,Consulting,1412000,1177000,0.834,5,VEN0061,4925,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0117,Transport,Construction,16427000,13349000,0.813,5,VEN0056,1671,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0147,Public Works,Construction,8296000,7502000,0.904,2,VEN0041,2789,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0146,IT & Digital Services,IT Services,13724000,10293000,0.75,8,VEN0077,999,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0144,Education,Office Supplies,388000,367000,0.946,7,VEN0002,773,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0143,IT & Digital Services,Consulting,6448000,4957000,0.769,6,VEN0061,4466,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0261,Education,Construction,14598000,14176000,0.971,5,VEN0104,2297,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0284,Transport,IT Services,13456000,12106000,0.9,2,VEN0111,-66,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0282,Education,Office Supplies,61000,57000,0.934,2,VEN0049,3874,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0280,Public Works,Construction,27977000,24605000,0.879,7,VEN0018,2300,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0279,IT & Digital Services,Construction,26962000,22109000,0.82,6,VEN0018,1341,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0275,Public Works,Office Supplies,758000,654000,0.863,3,VEN0042,1487,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0473,Health,IT Services,12804000,11399000,0.89,7,VEN0077,-224,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0487,Education,Medical Supplies,6473000,6577000,1.016,2,VEN0034,-1075,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0485,IT & Digital Services,Office Supplies,1096000,1069000,0.975,2,VEN0016,812,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0016,Health,IT Services,7905000,6815000,0.862,8,VEN0063,1771,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0015,Health,IT Services,11547000,9094000,0.788,8,VEN0063,2851,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0183,IT & Digital Services,IT Services,11442000,8827000,0.771,8,VEN0044,4772,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0182,IT & Digital Services,Consulting,5914000,5121000,0.866,2,VEN0084,1040,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0030,Education,Consulting,2038000,1890000,0.927,2,VEN0103,3596,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0462,Health,Construction,33497000,29033000,0.867,6,VEN0072,5140,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0470,Health,Consulting,7281000,6749000,0.927,2,VEN0084,1474,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0469,Health,Office Supplies,1640000,1298000,0.791,5,VEN0060,1741,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0033,Education,Office Supplies,1338000,1269000,0.948,8,VEN0008,1205,False,True,15,Low,False,unusual_bid_pattern,"Two or more competing bids were within 0.3% of each other, an unusually narrow spread."
+TEN0483,Education,Office Supplies,1442000,1507000,1.045,2,VEN0016,1004,False,False,15,Low,False,low_competition,Only 2 bids were submitted for this tender.
+TEN0005,Education,IT Services,6580000,5708000,0.867,4,VEN0119,4828,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0001,Education,Office Supplies,823000,655000,0.796,6,VEN0026,2217,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0031,Education,Consulting,7830000,8019000,1.024,3,VEN0093,1001,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0034,Health,Construction,14782000,13250000,0.896,5,VEN0036,2066,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0035,Education,Consulting,5199000,4195000,0.807,8,VEN0084,1716,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0036,IT & Digital Services,IT Services,744000,558000,0.75,6,VEN0077,-7,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0456,Education,Consulting,5281000,4320000,0.818,7,VEN0093,1442,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0457,Health,Construction,46577000,38916000,0.836,3,VEN0100,-493,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0458,Transport,Construction,27091000,21079000,0.778,8,VEN0058,4458,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0461,Health,Consulting,5692000,4269000,0.75,8,VEN0084,803,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0465,Health,Medical Supplies,4868000,4415000,0.907,8,VEN0109,3841,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0026,Health,Medical Supplies,783000,777000,0.992,8,VEN0020,3161,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0029,IT & Digital Services,Medical Supplies,3832000,3383000,0.883,4,VEN0005,764,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0181,Health,Office Supplies,1721000,1564000,0.909,7,VEN0026,1626,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0500,Health,IT Services,10105000,7892000,0.781,6,VEN0066,2088,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0010,Education,IT Services,2719000,2105000,0.774,6,VEN0053,1540,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0011,IT & Digital Services,IT Services,13168000,11170000,0.848,8,VEN0119,3938,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0014,Transport,Medical Supplies,9128000,9945000,1.09,4,VEN0070,2381,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0017,Health,Office Supplies,1137000,981000,0.863,5,VEN0080,2708,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0276,IT & Digital Services,IT Services,2970000,2228000,0.75,6,VEN0111,-308,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0245,Public Works,IT Services,2008000,1522000,0.758,5,VEN0066,2756,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0306,Public Works,Consulting,3811000,3348000,0.879,5,VEN0048,2864,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0278,Health,Office Supplies,1730000,1640000,0.948,4,VEN0042,1277,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0288,Public Works,IT Services,9809000,8760000,0.893,5,VEN0022,-713,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0289,Education,Consulting,4848000,3836000,0.791,6,VEN0092,4351,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0291,IT & Digital Services,Consulting,1960000,1731000,0.883,4,VEN0081,-1213,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0262,IT & Digital Services,IT Services,2657000,2050000,0.772,8,VEN0022,-18,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0263,Public Works,Office Supplies,144000,108000,0.75,8,VEN0110,4150,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0152,Transport,Medical Supplies,1614000,1582000,0.98,3,VEN0070,2556,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0154,IT & Digital Services,Office Supplies,444000,353000,0.795,4,VEN0002,1107,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0155,IT & Digital Services,Consulting,4895000,3671000,0.75,5,VEN0038,1699,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0156,Transport,Office Supplies,1702000,1302000,0.765,3,VEN0049,4826,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0322,IT & Digital Services,Medical Supplies,9679000,9426000,0.974,8,VEN0034,-57,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0293,IT & Digital Services,Office Supplies,1096000,855000,0.78,5,VEN0015,3507,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0137,IT & Digital Services,Medical Supplies,4129000,3867000,0.937,7,VEN0115,4997,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0139,Transport,Construction,35365000,29879000,0.845,7,VEN0052,-782,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0141,Public Works,Construction,9042000,8007000,0.886,7,VEN0120,824,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0145,IT & Digital Services,Construction,13469000,11075000,0.822,4,VEN0072,5164,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0148,IT & Digital Services,Medical Supplies,8086000,6064000,0.75,5,VEN0115,3975,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0118,IT & Digital Services,Office Supplies,1189000,964000,0.811,7,VEN0015,3980,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0119,Transport,Office Supplies,1749000,1409000,0.806,3,VEN0059,913,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0298,IT & Digital Services,Construction,9780000,8374000,0.856,3,VEN0010,935,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0120,Transport,Office Supplies,1131000,1024000,0.905,3,VEN0080,3143,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0122,IT & Digital Services,Medical Supplies,542000,423000,0.78,7,VEN0020,2832,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0123,Education,Consulting,3919000,3396000,0.867,8,VEN0038,2063,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0126,Public Works,Consulting,7220000,5546000,0.768,7,VEN0048,2718,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0128,Public Works,IT Services,6291000,4885000,0.777,8,VEN0119,3748,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0101,Public Works,IT Services,8103000,7323000,0.904,4,VEN0066,2542,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0103,Health,Consulting,3874000,3091000,0.798,8,VEN0084,1337,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0151,Education,Medical Supplies,9625000,7938000,0.825,4,VEN0055,4531,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0248,Transport,IT Services,2448000,2138000,0.873,7,VEN0111,-823,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0252,Education,Construction,37092000,32988000,0.889,3,VEN0056,1597,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0157,Education,Construction,3135000,2566000,0.819,3,VEN0036,2316,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0135,IT & Digital Services,IT Services,9110000,7779000,0.854,8,VEN0022,-776,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0264,Transport,Construction,40702000,30526000,0.75,7,VEN0001,947,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0266,Education,IT Services,6421000,4816000,0.75,4,VEN0039,1744,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0267,Education,Office Supplies,1781000,1470000,0.825,6,VEN0059,1365,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0268,Public Works,Medical Supplies,6468000,6067000,0.938,5,VEN0030,4755,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0270,Public Works,Office Supplies,886000,841000,0.949,5,VEN0107,1015,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0271,IT & Digital Services,Consulting,6201000,5151000,0.831,4,VEN0037,892,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0272,Health,Consulting,1973000,1685000,0.854,7,VEN0038,949,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0274,Public Works,Medical Supplies,359000,342000,0.953,4,VEN0091,-940,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0314,Education,Construction,48484000,42379000,0.874,3,VEN0104,2912,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0317,Transport,Office Supplies,329000,273000,0.83,3,VEN0051,-557,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0355,Education,Consulting,2773000,2268000,0.818,7,VEN0035,-107,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0327,Public Works,Consulting,6154000,4616000,0.75,5,VEN0092,4784,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0332,IT & Digital Services,Construction,5887000,4696000,0.798,7,VEN0041,3032,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0333,IT & Digital Services,Office Supplies,275000,227000,0.825,6,VEN0043,-182,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0335,Health,IT Services,10790000,9922000,0.92,3,VEN0066,1939,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0337,Transport,Construction,33990000,29913000,0.88,4,VEN0036,3183,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0338,Health,IT Services,8285000,7657000,0.924,3,VEN0097,3786,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0339,Public Works,Office Supplies,1667000,1470000,0.882,3,VEN0050,2806,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0340,Public Works,Construction,16078000,13073000,0.813,8,VEN0023,3507,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0105,Transport,Medical Supplies,4881000,4323000,0.886,3,VEN0091,-1161,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0107,IT & Digital Services,Office Supplies,564000,479000,0.849,6,VEN0042,1683,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0108,Public Works,Office Supplies,1428000,1273000,0.891,6,VEN0099,-721,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0109,Transport,Office Supplies,256000,237000,0.926,5,VEN0106,-122,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0110,Public Works,Consulting,2539000,2263000,0.891,6,VEN0048,2246,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0085,Transport,Medical Supplies,733000,550000,0.75,7,VEN0031,1011,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0086,Education,Construction,19015000,15766000,0.829,7,VEN0056,2851,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0346,Public Works,IT Services,11900000,10992000,0.924,5,VEN0119,4733,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0348,IT & Digital Services,IT Services,14142000,10606000,0.75,6,VEN0022,-911,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0241,Education,Office Supplies,903000,839000,0.929,5,VEN0008,1264,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0246,Transport,Medical Supplies,9730000,7422000,0.763,8,VEN0047,-683,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0169,IT & Digital Services,IT Services,1397000,1134000,0.812,8,VEN0044,4332,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0171,Education,IT Services,11531000,9953000,0.863,4,VEN0111,-277,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0172,Education,Medical Supplies,1559000,1429000,0.917,8,VEN0082,4282,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0174,Education,IT Services,7983000,5987000,0.75,6,VEN0044,5163,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0175,Education,Construction,2912000,2884000,0.99,3,VEN0102,3848,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0176,Transport,Construction,21394000,18662000,0.872,7,VEN0102,3728,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0177,IT & Digital Services,IT Services,10087000,8319000,0.825,4,VEN0066,2224,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0149,Health,Construction,45463000,35520000,0.781,8,VEN0052,-427,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0150,Transport,Consulting,4733000,4508000,0.952,3,VEN0028,1350,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0350,Health,Office Supplies,191000,143000,0.749,6,VEN0040,4310,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0352,Public Works,Medical Supplies,2235000,1906000,0.853,7,VEN0017,3469,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0387,Health,Construction,10160000,9230000,0.908,4,VEN0041,3036,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0388,Education,Medical Supplies,4510000,4098000,0.909,4,VEN0082,3905,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0358,Education,Construction,18185000,13639000,0.75,6,VEN0072,4207,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0359,Transport,IT Services,1112000,911000,0.819,6,VEN0119,3803,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0363,Public Works,Medical Supplies,4426000,3769000,0.852,6,VEN0034,-931,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0365,IT & Digital Services,Medical Supplies,866000,782000,0.903,3,VEN0034,-187,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0366,Transport,Medical Supplies,2264000,2068000,0.913,3,VEN0020,2852,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0367,IT & Digital Services,Medical Supplies,7541000,5656000,0.75,6,VEN0109,3896,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0368,Education,Office Supplies,1509000,1251000,0.829,6,VEN0060,1138,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0369,Transport,Medical Supplies,6695000,6559000,0.98,4,VEN0109,3351,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0371,Health,Consulting,1436000,1211000,0.843,8,VEN0006,3875,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0090,Education,Medical Supplies,9971000,7717000,0.774,7,VEN0004,-556,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0091,IT & Digital Services,Medical Supplies,1696000,1356000,0.8,5,VEN0073,2496,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0092,Public Works,Office Supplies,1025000,893000,0.871,6,VEN0049,4349,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0093,Health,Medical Supplies,7345000,6146000,0.837,6,VEN0082,5236,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0094,Education,IT Services,5054000,4977000,0.985,3,VEN0044,4789,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0095,Public Works,IT Services,6341000,6099000,0.962,3,VEN0097,4072,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0096,IT & Digital Services,Medical Supplies,7639000,5729000,0.75,7,VEN0020,2530,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0097,Health,IT Services,13324000,12886000,0.967,4,VEN0039,2662,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0099,Health,Office Supplies,1363000,1158000,0.85,7,VEN0049,3587,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0069,Public Works,Construction,3531000,3216000,0.911,3,VEN0052,-689,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0378,Public Works,Office Supplies,695000,651000,0.937,5,VEN0015,2783,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0380,Health,Medical Supplies,2123000,2118000,0.998,8,VEN0005,1043,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0381,Education,Office Supplies,1145000,890000,0.777,7,VEN0049,4415,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0418,Education,Office Supplies,1504000,1365000,0.908,4,VEN0059,1675,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0419,Transport,IT Services,11480000,10757000,0.937,4,VEN0088,4894,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0420,Education,Medical Supplies,1690000,1420000,0.84,4,VEN0034,-648,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0389,Transport,Consulting,6760000,5070000,0.75,4,VEN0103,4066,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0390,IT & Digital Services,Consulting,2337000,2166000,0.927,4,VEN0095,968,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0391,IT & Digital Services,Office Supplies,119000,101000,0.849,7,VEN0060,1164,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0395,Transport,Office Supplies,1851000,1732000,0.936,5,VEN0003,1779,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0397,Transport,Construction,7757000,6851000,0.883,7,VEN0100,-434,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0399,Transport,Consulting,7653000,6576000,0.859,7,VEN0093,1356,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0401,Transport,Construction,12955000,9912000,0.765,4,VEN0036,2685,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0403,Health,IT Services,13855000,10391000,0.75,4,VEN0088,4539,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0404,Education,Consulting,7051000,6385000,0.906,4,VEN0035,-1053,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0187,Transport,IT Services,597000,541000,0.906,7,VEN0111,-879,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0253,Public Works,IT Services,8469000,6437000,0.76,6,VEN0097,3559,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0254,IT & Digital Services,Office Supplies,710000,727000,1.024,6,VEN0060,1145,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0255,Health,Construction,43663000,37183000,0.852,3,VEN0102,2989,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0256,Education,Consulting,6233000,4913000,0.788,3,VEN0092,4181,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0258,Education,Construction,11114000,11479000,1.033,3,VEN0018,1312,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0259,IT & Digital Services,Office Supplies,1830000,1569000,0.857,4,VEN0002,1315,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0260,IT & Digital Services,IT Services,6726000,5485000,0.815,4,VEN0039,1713,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0229,Public Works,Consulting,5006000,4254000,0.85,3,VEN0046,-452,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0235,Transport,Construction,24308000,20330000,0.836,6,VEN0023,4107,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0237,Education,Construction,38539000,35627000,0.924,5,VEN0023,3230,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0373,IT & Digital Services,Consulting,5757000,4921000,0.855,8,VEN0048,2633,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0088,Public Works,Construction,3093000,2607000,0.843,8,VEN0087,-530,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0076,Education,IT Services,2801000,2646000,0.945,4,VEN0032,3654,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0078,Health,Office Supplies,1818000,1492000,0.821,6,VEN0025,-779,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0082,Education,Construction,27983000,22071000,0.789,5,VEN0036,3474,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0084,Public Works,Construction,17297000,14198000,0.821,3,VEN0102,3104,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0053,Education,Office Supplies,1480000,1312000,0.886,3,VEN0110,5131,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0408,Public Works,Medical Supplies,5052000,3988000,0.789,8,VEN0030,4254,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0409,IT & Digital Services,IT Services,11117000,8338000,0.75,5,VEN0097,4120,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0411,Health,IT Services,10188000,8130000,0.798,7,VEN0009,3600,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0412,Transport,IT Services,1545000,1389000,0.899,5,VEN0032,3541,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0415,Education,Medical Supplies,1089000,901000,0.827,5,VEN0055,3937,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0416,Transport,Construction,14536000,13578000,0.934,4,VEN0104,2387,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0421,Public Works,IT Services,9822000,7682000,0.782,6,VEN0053,1390,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0422,Education,Consulting,4387000,4410000,1.005,3,VEN0095,961,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0057,Public Works,Construction,43910000,36127000,0.823,4,VEN0102,3755,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0061,IT & Digital Services,IT Services,7883000,7293000,0.925,5,VEN0053,1756,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0066,Public Works,Medical Supplies,802000,758000,0.945,5,VEN0021,4032,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0425,Public Works,IT Services,13593000,13209000,0.972,5,VEN0111,-552,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0433,Public Works,Consulting,7981000,6579000,0.824,3,VEN0038,1170,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0434,Transport,Office Supplies,1851000,1483000,0.801,6,VEN0059,1607,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0435,Transport,IT Services,8260000,6894000,0.835,4,VEN0009,2456,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0211,Health,Consulting,7902000,6876000,0.87,7,VEN0081,-1261,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0214,Health,Construction,20085000,17536000,0.873,5,VEN0041,2880,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0215,IT & Digital Services,IT Services,8303000,6852000,0.825,5,VEN0009,3103,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0219,IT & Digital Services,IT Services,6498000,4874000,0.75,4,VEN0094,3703,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0222,Health,IT Services,9939000,8179000,0.823,7,VEN0032,3957,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0224,Health,Consulting,6984000,7021000,1.005,8,VEN0038,1251,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0225,Transport,Construction,44301000,33226000,0.75,7,VEN0001,1314,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0197,Transport,Office Supplies,1807000,1595000,0.883,6,VEN0008,1350,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0184,Health,Medical Supplies,8577000,7779000,0.907,4,VEN0047,-1025,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0407,Public Works,Construction,28879000,25331000,0.877,5,VEN0023,3656,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0073,Education,Office Supplies,447000,380000,0.85,7,VEN0040,3534,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0437,Health,Consulting,1355000,1143000,0.844,6,VEN0103,3491,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0042,Education,Consulting,3823000,3497000,0.915,5,VEN0028,788,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0043,IT & Digital Services,Consulting,1122000,1080000,0.963,4,VEN0038,834,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0044,IT & Digital Services,IT Services,758000,669000,0.883,7,VEN0111,-572,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0048,IT & Digital Services,Consulting,6495000,5707000,0.879,7,VEN0103,3652,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0050,IT & Digital Services,IT Services,5268000,4227000,0.802,8,VEN0094,3711,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0023,Health,Medical Supplies,5109000,4856000,0.95,3,VEN0021,3665,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0440,Education,Office Supplies,198000,170000,0.859,4,VEN0051,-120,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0468,Education,IT Services,1389000,1210000,0.871,4,VEN0111,-477,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0189,Transport,Medical Supplies,6492000,6736000,1.038,4,VEN0020,3626,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0193,Health,Office Supplies,1549000,1482000,0.957,5,VEN0016,1007,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0167,Health,Construction,24876000,20705000,0.832,7,VEN0058,4482,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0203,Health,Medical Supplies,4439000,3871000,0.872,4,VEN0091,-1325,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0204,IT & Digital Services,Office Supplies,1261000,1031000,0.818,3,VEN0003,1955,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0205,Transport,Medical Supplies,4788000,3591000,0.75,7,VEN0005,1228,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0206,IT & Digital Services,IT Services,14270000,12063000,0.845,7,VEN0063,1597,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0207,Transport,IT Services,4274000,3872000,0.906,8,VEN0119,4770,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0208,Health,Medical Supplies,483000,362000,0.749,3,VEN0115,4125,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0451,Public Works,Consulting,7453000,5590000,0.75,3,VEN0061,5340,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0006,Public Works,Medical Supplies,4475000,3762000,0.841,6,VEN0031,865,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0007,Health,IT Services,4755000,4045000,0.851,8,VEN0111,-193,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0488,Education,Medical Supplies,7910000,6912000,0.874,5,VEN0113,1261,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0491,IT & Digital Services,Consulting,5533000,5031000,0.909,5,VEN0084,1097,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0493,IT & Digital Services,Office Supplies,654000,638000,0.976,7,VEN0105,3349,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0495,Transport,Construction,49434000,49414000,1.0,4,VEN0036,3415,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0498,Public Works,Office Supplies,1211000,993000,0.82,5,VEN0075,-195,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0004,Public Works,IT Services,12677000,10155000,0.801,6,VEN0111,-828,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0453,Health,Construction,4456000,3402000,0.763,4,VEN0072,4558,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0474,Public Works,IT Services,7335000,7344000,1.001,3,VEN0039,2800,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0477,IT & Digital Services,Construction,14475000,11672000,0.806,6,VEN0018,1133,False,False,0,Low,False,,No unusual signals were detected for this tender.
+TEN0480,Health,Consulting,1370000,1087000,0.793,8,VEN0095,1511,False,False,0,Low,False,,No unusual signals were detected for this tender.

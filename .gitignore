@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Internal development instructions (not for public repo)
+CLAUDE.md

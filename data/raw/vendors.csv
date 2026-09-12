@@ -1,0 +1,121 @@
+vendor_id,vendor_name,vendor_category,registered_city,registration_date,address_group_id,contact_group_id
+VEN0001,Ironclad Builders & Co.,Construction,Eastwood,2019-02-03,ADDR_SOLO001,CONTACT_SOLO001
+VEN0002,Trueline Supplies & Co.,Office Supplies,Lakeside,2020-12-07,ADDR_SOLO002,CONTACT_SOLO002
+VEN0003,Summit Supplies & Co.,Office Supplies,Rosedale,2016-04-12,ADDR_SOLO003,CONTACT_SOLO003
+VEN0004,Unity Pharma & Co.,Medical Supplies,Rosedale,2023-10-29,ADDR_SOLO004,CONTACT_SOLO004
+VEN0005,Summit Pharma Enterprises,Medical Supplies,Rosedale,2021-08-13,ADDR_SOLO005,CONTACT_SOLO005
+VEN0006,Silverline Partners Pvt Ltd,Consulting,Lakeside,2013-02-15,ADDR_SOLO006,CONTACT_SOLO006
+VEN0007,Silverline Infrastructure Inc.,Construction,Eastwood,2020-01-26,ADDR_SHARED3,CONTACT_SOLO007
+VEN0008,Crestline Stationery Group,Office Supplies,Rosedale,2020-12-16,ADDR_SOLO007,CONTACT_SOLO008
+VEN0009,Apex Solutions Pvt Ltd,IT Services,Northgate,2015-01-03,ADDR_SOLO008,CONTACT_SOLO009
+VEN0010,Crestline Contractors Pvt Ltd,Construction,Northgate,2021-01-27,ADDR_SOLO009,CONTACT_SOLO010
+VEN0011,Meridian MedSupplies Inc.,Medical Supplies,Brookfield,2023-06-24,ADDR_SOLO010,CONTACT_SHARED4
+VEN0012,Northgate Advisory & Co.,Consulting,Eastwood,2022-04-04,ADDR_SOLO011,CONTACT_SOLO011
+VEN0013,Anchor Traders & Co.,Office Supplies,Meridian City,2021-06-09,ADDR_SOLO012,CONTACT_SHARED4
+VEN0014,National Supplies & Co.,Office Supplies,Meridian City,2019-07-09,ADDR_SOLO013,CONTACT_SHARED3
+VEN0015,Ironclad Stationery Group,Office Supplies,Lakeside,2014-01-22,ADDR_SOLO014,CONTACT_SOLO012
+VEN0016,Sunrise Stationery Ltd,Office Supplies,Meridian City,2021-12-06,ADDR_SOLO015,CONTACT_SOLO013
+VEN0017,Silverline Healthcare Pvt Ltd,Medical Supplies,Eastwood,2015-06-19,ADDR_SOLO016,CONTACT_SOLO014
+VEN0018,Summit Contractors Enterprises,Construction,Northgate,2017-12-25,ADDR_SOLO017,CONTACT_SOLO015
+VEN0019,Prime Advisory Enterprises,Consulting,Meridian City,2014-09-19,ADDR_SOLO018,CONTACT_SHARED3
+VEN0020,Vanguard Health & Co.,Medical Supplies,Clearwater,2014-09-12,ADDR_SOLO019,CONTACT_SOLO016
+VEN0021,Cornerstone Healthcare Group,Medical Supplies,Meridian City,2012-05-13,ADDR_SOLO020,CONTACT_SOLO017
+VEN0022,Prime Software Group,IT Services,Northgate,2024-06-02,ADDR_SOLO021,CONTACT_SOLO018
+VEN0023,Vanguard Infrastructure Ltd,Construction,Meridian City,2012-03-20,ADDR_SOLO022,CONTACT_SOLO019
+VEN0024,Silverline Partners & Co.,Consulting,Meridian City,2011-04-18,ADDR_SOLO023,CONTACT_SOLO020
+VEN0025,Unity Stationery Inc.,Office Supplies,Meridian City,2024-01-17,ADDR_SOLO024,CONTACT_SOLO021
+VEN0026,Summit Stationery Pvt Ltd,Office Supplies,Meridian City,2018-04-29,ADDR_SOLO025,CONTACT_SOLO022
+VEN0027,Silverline Health Group,Medical Supplies,Meridian City,2016-07-27,ADDR_SHARED1,CONTACT_SOLO023
+VEN0028,Cornerstone Advisory Enterprises,Consulting,Meridian City,2021-01-23,ADDR_SOLO026,CONTACT_SOLO024
+VEN0029,Trueline MedSupplies Enterprises,Medical Supplies,Lakeside,2015-10-02,ADDR_SHARED4,CONTACT_SOLO025
+VEN0030,Apex MedSupplies Enterprises,Medical Supplies,Lakeside,2011-12-02,ADDR_SOLO027,CONTACT_SOLO026
+VEN0031,Northgate Pharma Enterprises,Medical Supplies,Rosedale,2020-12-11,ADDR_SOLO028,CONTACT_SOLO027
+VEN0032,Ironclad Technologies Ltd,IT Services,Northgate,2012-08-22,ADDR_SOLO029,CONTACT_SOLO028
+VEN0033,Summit Construction Group,Construction,Fairhaven,2018-04-18,ADDR_SHARED3,CONTACT_SOLO029
+VEN0034,Regional Healthcare Enterprises,Medical Supplies,Eastwood,2024-03-27,ADDR_SOLO030,CONTACT_SOLO030
+VEN0035,Silverline Associates & Co.,Consulting,Eastwood,2024-01-17,ADDR_SOLO031,CONTACT_SOLO031
+VEN0036,Everest Construction Group,Construction,Meridian City,2015-05-31,ADDR_SOLO032,CONTACT_SOLO032
+VEN0037,Meridian Consulting Enterprises,Consulting,Northgate,2021-09-15,ADDR_SOLO033,CONTACT_SOLO033
+VEN0038,Trueline Partners & Co.,Consulting,Northgate,2019-03-11,ADDR_SOLO034,CONTACT_SOLO034
+VEN0039,Ironclad Software & Co.,IT Services,Northgate,2017-03-11,ADDR_SOLO035,CONTACT_SOLO035
+VEN0040,Anchor Traders Pvt Ltd,Office Supplies,Fairhaven,2012-02-06,ADDR_SOLO036,CONTACT_SOLO036
+VEN0041,Unity Builders Pvt Ltd,Construction,Rosedale,2015-08-25,ADDR_SOLO037,CONTACT_SOLO037
+VEN0042,National Stationery Enterprises,Office Supplies,Meridian City,2019-10-12,ADDR_SOLO038,CONTACT_SOLO038
+VEN0043,Highland Office Supplies Group,Office Supplies,Rosedale,2024-10-19,ADDR_SOLO039,CONTACT_SOLO039
+VEN0044,Vanguard Software & Co.,IT Services,Fairhaven,2010-01-27,ADDR_SOLO040,CONTACT_SOLO040
+VEN0045,Anchor Builders Pvt Ltd,Construction,Meridian City,2020-10-07,ADDR_SOLO041,CONTACT_SOLO041
+VEN0046,Vanguard Partners Enterprises,Consulting,Eastwood,2022-09-12,ADDR_SOLO042,CONTACT_SOLO042
+VEN0047,Vanguard MedSupplies Inc.,Medical Supplies,Meridian City,2024-04-08,ADDR_SOLO043,CONTACT_SOLO043
+VEN0048,Apex Partners Group,Consulting,Clearwater,2016-05-11,ADDR_SOLO044,CONTACT_SOLO044
+VEN0049,Silverline Traders & Co.,Office Supplies,Meridian City,2011-10-12,ADDR_SOLO045,CONTACT_SOLO045
+VEN0050,Northgate Office Supplies Pvt Ltd,Office Supplies,Eastwood,2014-01-24,ADDR_SOLO046,CONTACT_SOLO046
+VEN0051,Apex Stationery Group,Office Supplies,Clearwater,2022-10-05,ADDR_SOLO047,CONTACT_SOLO047
+VEN0052,Trueline Contractors Pvt Ltd,Construction,Clearwater,2023-03-04,ADDR_SOLO048,CONTACT_SOLO048
+VEN0053,Summit Software Group,IT Services,Eastwood,2019-07-23,ADDR_SOLO049,CONTACT_SOLO049
+VEN0054,Prime MedSupplies Group,Medical Supplies,Brookfield,2011-11-04,ADDR_SOLO050,CONTACT_SHARED3
+VEN0055,Cornerstone Healthcare & Co.,Medical Supplies,Lakeside,2011-10-31,ADDR_SOLO051,CONTACT_SOLO050
+VEN0056,Everest Infrastructure Enterprises,Construction,Brookfield,2017-03-04,ADDR_SOLO052,CONTACT_SOLO051
+VEN0057,Northgate Health Ltd,Medical Supplies,Meridian City,2018-10-29,ADDR_SOLO053,CONTACT_SHARED2
+VEN0058,Everest Builders Inc.,Construction,Fairhaven,2010-06-27,ADDR_SOLO054,CONTACT_SOLO052
+VEN0059,Ironclad Stationery Pvt Ltd,Office Supplies,Fairhaven,2020-04-17,ADDR_SOLO055,CONTACT_SOLO053
+VEN0060,Bluewave Supplies Pvt Ltd,Office Supplies,Eastwood,2018-03-03,ADDR_SOLO056,CONTACT_SOLO054
+VEN0061,Meridian Partners Pvt Ltd,Consulting,Fairhaven,2010-03-09,ADDR_SOLO057,CONTACT_SOLO055
+VEN0062,Silverline Traders Ltd,Office Supplies,Rosedale,2011-06-09,ADDR_SOLO058,CONTACT_SHARED1
+VEN0063,Anchor Technologies Enterprises,IT Services,Lakeside,2016-10-25,ADDR_SOLO059,CONTACT_SOLO056
+VEN0064,Anchor Advisory Ltd,Consulting,Northgate,2020-11-03,ADDR_SOLO060,CONTACT_SHARED1
+VEN0065,Prime Pharma Enterprises,Medical Supplies,Meridian City,2022-05-20,ADDR_SOLO061,CONTACT_SOLO057
+VEN0066,Cornerstone Solutions Ltd,IT Services,Fairhaven,2016-06-21,ADDR_SOLO062,CONTACT_SOLO058
+VEN0067,Anchor Partners Inc.,Consulting,Rosedale,2014-06-07,ADDR_SHARED2,CONTACT_SOLO059
+VEN0068,Apex Systems Ltd,IT Services,Northgate,2024-07-11,ADDR_SOLO063,CONTACT_SOLO060
+VEN0069,Highland Construction & Co.,Construction,Rosedale,2016-11-17,ADDR_SOLO064,CONTACT_SOLO061
+VEN0070,Everest MedSupplies Ltd,Medical Supplies,Rosedale,2014-09-25,ADDR_SOLO065,CONTACT_SOLO062
+VEN0071,Sunrise Stationery Enterprises,Office Supplies,Northgate,2016-08-20,ADDR_SOLO066,CONTACT_SOLO063
+VEN0072,Apex Infrastructure Ltd,Construction,Rosedale,2010-03-08,ADDR_SOLO067,CONTACT_SOLO064
+VEN0073,Apex Pharma Ltd,Medical Supplies,Lakeside,2014-07-13,ADDR_SOLO068,CONTACT_SOLO065
+VEN0074,Unity Builders Inc.,Construction,Northgate,2017-09-25,ADDR_SOLO069,CONTACT_SHARED2
+VEN0075,Northgate Supplies Inc.,Office Supplies,Clearwater,2023-10-12,ADDR_SOLO070,CONTACT_SOLO066
+VEN0076,Vanguard Healthcare & Co.,Medical Supplies,Clearwater,2021-01-27,ADDR_SOLO071,CONTACT_SOLO067
+VEN0077,Highland Software Group,IT Services,Fairhaven,2021-09-20,ADDR_SOLO072,CONTACT_SOLO068
+VEN0078,Meridian Systems Enterprises,IT Services,Northgate,2018-03-05,ADDR_SOLO073,CONTACT_SHARED2
+VEN0079,Sunrise Health Ltd,Medical Supplies,Fairhaven,2011-08-29,ADDR_SHARED3,CONTACT_SOLO069
+VEN0080,Meridian Office Supplies & Co.,Office Supplies,Eastwood,2015-11-12,ADDR_SOLO074,CONTACT_SOLO070
+VEN0081,Trueline Advisory Pvt Ltd,Consulting,Lakeside,2024-12-15,ADDR_SOLO075,CONTACT_SOLO071
+VEN0082,National MedSupplies & Co.,Medical Supplies,Eastwood,2010-08-31,ADDR_SOLO076,CONTACT_SOLO072
+VEN0083,Ironclad Infrastructure Inc.,Construction,Fairhaven,2023-03-11,ADDR_SOLO077,CONTACT_SOLO073
+VEN0084,Summit Partners Enterprises,Consulting,Lakeside,2020-04-08,ADDR_SOLO078,CONTACT_SOLO074
+VEN0085,Bluewave Stationery Pvt Ltd,Office Supplies,Northgate,2014-04-05,ADDR_SOLO079,CONTACT_SHARED1
+VEN0086,Cornerstone Supplies Ltd,Office Supplies,Brookfield,2021-09-02,ADDR_SOLO080,CONTACT_SOLO075
+VEN0087,Highland Construction Pvt Ltd,Construction,Northgate,2022-07-22,ADDR_SOLO081,CONTACT_SOLO076
+VEN0088,Sunrise Solutions Pvt Ltd,IT Services,Brookfield,2010-08-25,ADDR_SOLO082,CONTACT_SOLO077
+VEN0089,Regional Office Supplies Group,Office Supplies,Eastwood,2011-08-07,ADDR_SHARED2,CONTACT_SOLO078
+VEN0090,Horizon Partners Inc.,Consulting,Meridian City,2019-12-27,ADDR_SOLO083,CONTACT_SOLO079
+VEN0091,Highland Healthcare Ltd,Medical Supplies,Lakeside,2024-12-27,ADDR_SOLO084,CONTACT_SOLO080
+VEN0092,Silverline Associates Enterprises,Consulting,Meridian City,2010-05-12,ADDR_SOLO085,CONTACT_SOLO081
+VEN0093,Silverline Associates Group,Consulting,Brookfield,2019-12-27,ADDR_SOLO086,CONTACT_SOLO082
+VEN0094,Everest Software Pvt Ltd,IT Services,Meridian City,2012-01-19,ADDR_SOLO087,CONTACT_SOLO083
+VEN0095,Cornerstone Consulting Ltd,Consulting,Clearwater,2019-10-03,ADDR_SOLO088,CONTACT_SOLO084
+VEN0096,Crestline Software Pvt Ltd,IT Services,Meridian City,2019-05-09,ADDR_SHARED1,CONTACT_SOLO085
+VEN0097,Highland Technologies Inc.,IT Services,Clearwater,2011-05-11,ADDR_SOLO089,CONTACT_SOLO086
+VEN0098,Anchor Stationery & Co.,Office Supplies,Eastwood,2020-03-18,ADDR_SHARED2,CONTACT_SOLO087
+VEN0099,Cornerstone Traders Enterprises,Office Supplies,Lakeside,2023-06-16,ADDR_SOLO090,CONTACT_SOLO088
+VEN0100,Horizon Infrastructure Ltd,Construction,Brookfield,2022-12-14,ADDR_SOLO091,CONTACT_SOLO089
+VEN0101,Meridian Associates Pvt Ltd,Consulting,Brookfield,2010-06-08,ADDR_SOLO092,CONTACT_SHARED4
+VEN0102,Regional Construction Enterprises,Construction,Clearwater,2013-09-09,ADDR_SOLO093,CONTACT_SOLO090
+VEN0103,Sunrise Consulting Group,Consulting,Northgate,2013-08-12,ADDR_SOLO094,CONTACT_SOLO091
+VEN0104,Anchor Builders Inc.,Construction,Lakeside,2016-10-19,ADDR_SOLO095,CONTACT_SOLO092
+VEN0105,Summit Stationery Inc.,Office Supplies,Meridian City,2012-02-23,ADDR_SOLO096,CONTACT_SOLO093
+VEN0106,Silverline Office Supplies Group,Office Supplies,Lakeside,2022-10-25,ADDR_SOLO097,CONTACT_SOLO094
+VEN0107,Everest Traders Ltd,Office Supplies,Meridian City,2021-08-26,ADDR_SOLO098,CONTACT_SOLO095
+VEN0108,Apex Traders Ltd,Office Supplies,Fairhaven,2022-02-15,ADDR_SHARED4,CONTACT_SOLO096
+VEN0109,Apex Health Group,Medical Supplies,Fairhaven,2012-12-21,ADDR_SOLO099,CONTACT_SOLO097
+VEN0110,Highland Traders & Co.,Office Supplies,Fairhaven,2010-03-21,ADDR_SOLO100,CONTACT_SOLO098
+VEN0111,Anchor Technologies Inc.,IT Services,Fairhaven,2023-08-30,ADDR_SOLO101,CONTACT_SOLO099
+VEN0112,Regional Stationery Pvt Ltd,Office Supplies,Brookfield,2014-05-02,ADDR_SHARED1,CONTACT_SOLO100
+VEN0113,Apex Healthcare & Co.,Medical Supplies,Brookfield,2019-11-05,ADDR_SOLO102,CONTACT_SOLO101
+VEN0114,Vanguard Health Enterprises,Medical Supplies,Fairhaven,2023-08-23,ADDR_SOLO103,CONTACT_SOLO102
+VEN0115,Sunrise MedSupplies Group,Medical Supplies,Lakeside,2010-07-18,ADDR_SOLO104,CONTACT_SOLO103
+VEN0116,Unity Health Inc.,Medical Supplies,Clearwater,2010-01-30,ADDR_SOLO105,CONTACT_SOLO104
+VEN0117,Highland Builders Pvt Ltd,Construction,Meridian City,2010-01-30,ADDR_SHARED4,CONTACT_SOLO105
+VEN0118,Northgate Contractors Ltd,Construction,Meridian City,2012-05-06,ADDR_SOLO106,CONTACT_SOLO106
+VEN0119,National Software Ltd,IT Services,Meridian City,2010-10-11,ADDR_SOLO107,CONTACT_SOLO107
+VEN0120,Silverline Builders Enterprises,Construction,Lakeside,2022-04-20,ADDR_SOLO108,CONTACT_SOLO108
