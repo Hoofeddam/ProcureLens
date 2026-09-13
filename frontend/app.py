@@ -208,10 +208,13 @@ def render_scoring_explanation():
         )
         st.dataframe(pd.DataFrame(build_priority_ranges()), use_container_width=True, hide_index=True)
 
-        st.write(
-            "**Example:** if a tender has a high-price signal, a new-vendor signal, and a "
-            "shared-relationship signal, its score is 30 + 20 + 20 = 70. This makes it a "
-            "**High**-priority review candidate."
+        st.markdown(
+            "**Worked example:**\n\n"
+            "- High price: 30 points\n"
+            "- New vendor: 20 points\n"
+            "- Shared vendor relationship: 20 points\n"
+            "- Total: 70 points\n"
+            "- Review priority: High"
         )
 
         st.caption(
@@ -435,7 +438,7 @@ def render_tender_details(tender_id, vendors_df, tenders_df, bids_df, scoring_df
     col1, col2, col3 = st.columns(3)
     col1.write(f"**Tender ID:** {tender_id}")
     col1.write(f"**Department:** {tender['department']}")
-    col1.write(f"**Category:** {tender['tender_category']}")
+    col1.write(f"**Tender category:** {tender['tender_category']}")
     col2.write(f"**Estimated value:** {tender['estimated_value']:,}")
     col2.write(f"**Contract amount:** {score_row['contract_amount']:,}")
     col2.write(f"**Price ratio:** {score_row['price_ratio']}")
@@ -452,7 +455,7 @@ def render_tender_details(tender_id, vendors_df, tenders_df, bids_df, scoring_df
 
     col4, col5, col6 = st.columns(3)
     col4.write(f"**Winning vendor:** {vendor['vendor_name']} ({winning_vendor_id})")
-    col4.write(f"**Vendor registered:** {vendor['registration_date']}")
+    col4.write(f"**Vendor registration date:** {vendor['registration_date']}")
     col5.write(f"**Shared relationship:** {shared_relationship}")
     if score_row["has_shared_relationship"]:
         col5.caption(f"Address group: {vendor['address_group_id']} ({address_group_size} vendors); "
@@ -498,6 +501,10 @@ def render_tender_details(tender_id, vendors_df, tenders_df, bids_df, scoring_df
 def render_charts(filtered_df, tender_bids=None):
     """Render the priority distribution, score distribution, and (optionally) selected-tender bid chart."""
     st.subheader("Charts")
+    st.caption(
+        "These charts summarize review priorities and scores across the filtered tenders, "
+        "and compare bids for the tender currently selected below."
+    )
     chart_col1, chart_col2 = st.columns(2)
 
     with chart_col1:
@@ -599,6 +606,10 @@ def main():
 
     tender_bids = None
     st.subheader("Select a tender to inspect")
+    st.caption(
+        "Choose any tender from the filtered results above to see its full details, "
+        "detected signals, and review score breakdown."
+    )
     if filtered_df.empty:
         st.caption("No tenders available to select.")
     else:
