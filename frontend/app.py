@@ -307,7 +307,19 @@ def render_score_breakdown(signal_names, total_score):
         for name in signal_names
     ])
     st.dataframe(breakdown_df, use_container_width=True, hide_index=True)
-    st.bar_chart(breakdown_df.set_index("signal")["points"])
+
+    # Horizontal bars keep signal labels (e.g. "Shared vendor relationship") fully
+    # readable instead of being rotated or truncated on a vertical category axis.
+    chart = (
+        alt.Chart(breakdown_df)
+        .mark_bar()
+        .encode(
+            x=alt.X("points:Q", title="Points"),
+            y=alt.Y("signal:N", sort="-x", title=None),
+            tooltip=["signal", "points"],
+        )
+    )
+    st.altair_chart(chart, use_container_width=True)
     st.write(f"**Total score: {total_score} / 100**")
 
 
@@ -361,8 +373,11 @@ def render_tender_details(tender_id, vendors_df, tenders_df, bids_df, scoring_df
     ].sort_values("bid_amount")
 
     def highlight_winner(row):
-        color = "background-color: #fff3b0" if row["is_winner"] else ""
-        return [color] * len(row)
+        # Explicit dark text alongside the light background keeps the winning
+        # row readable under Streamlit's dark theme (light bg + default light
+        # text was low-contrast).
+        style = "background-color: #c6f6d5; color: #1a202c;" if row["is_winner"] else ""
+        return [style] * len(row)
 
     st.dataframe(tender_bids.style.apply(highlight_winner, axis=1), use_container_width=True, hide_index=True)
 
@@ -379,15 +394,36 @@ def render_charts(filtered_df, tender_bids=None):
         priority_counts = (
             filtered_df["review_priority"].value_counts().reindex(PRIORITY_ORDER).fillna(0)
         )
-        st.bar_chart(priority_counts)
+        priority_df = priority_counts.rename_axis("priority").reset_index(name="count")
+        priority_chart = (
+            alt.Chart(priority_df)
+            .mark_bar()
+            .encode(
+                x=alt.X("count:Q", title="Number of tenders"),
+                y=alt.Y("priority:N", sort=PRIORITY_ORDER, title=None),
+                tooltip=["priority", "count"],
+            )
+        )
+        st.altair_chart(priority_chart, use_container_width=True)
 
     with chart_col2:
         st.caption("Score distribution (filtered results)")
         bins = list(range(0, 101, 10))
         score_bins = pd.cut(filtered_df["score"], bins=bins, include_lowest=True)
         score_counts = score_bins.value_counts().sort_index()
-        score_counts.index = [str(interval) for interval in score_counts.index]
-        st.bar_chart(score_counts)
+        range_labels = [str(interval) for interval in score_counts.index]
+        score_df = pd.DataFrame({"range": range_labels, "count": score_counts.values})
+        # Horizontal bars avoid rotating the longer interval labels (e.g. "(70.0, 80.0]").
+        score_chart = (
+            alt.Chart(score_df)
+            .mark_bar()
+            .encode(
+                x=alt.X("count:Q", title="Number of tenders"),
+                y=alt.Y("range:N", sort=range_labels, title="Score range"),
+                tooltip=["range", "count"],
+            )
+        )
+        st.altair_chart(score_chart, use_container_width=True)
 
     if tender_bids is not None and not tender_bids.empty:
         st.caption("Bid amounts for the selected tender (winning bid highlighted)")
