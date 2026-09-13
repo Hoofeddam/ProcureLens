@@ -63,6 +63,36 @@ RECOMMENDED_ACTIONS = {
     "Critical": "Urgent human review",
 }
 
+# Friendly display names for raw data-field labels. The underlying dataframes
+# keep their original column names everywhere else in the code; these are
+# only applied to a copy right before something is shown to the user.
+COLUMN_LABELS = {
+    "tender_id": "Tender ID",
+    "department": "Department",
+    "tender_category": "Tender category",
+    "estimated_value": "Estimated value",
+    "contract_amount": "Contract amount",
+    "score": "Review score",
+    "review_priority": "Review priority",
+    "signals": "Detected signals",
+    "vendor_id": "Vendor ID",
+    "bid_amount": "Bid amount",
+    "submission_time": "Submission time",
+    "is_winner": "Winning bid",
+}
+
+GLOSSARY_TERMS = {
+    "Tender": "A tender is an official request from a government department to purchase goods or services.",
+    "Vendor": "A vendor is a company or supplier that wants to provide the goods or services.",
+    "Bid": "A bid is the price and offer submitted by a vendor for a tender.",
+    "Winning vendor": "The winning vendor is the supplier selected for the contract.",
+    "Estimated value": "The estimated value is the amount the department expected the purchase to cost.",
+    "Contract amount": "The contract amount is the final value agreed with the selected vendor.",
+    "Review score": "The review score is a weighted score based on unusual patterns found in the tender.",
+    "Review candidate": "A review candidate is a tender that may deserve additional human inspection. It is not proof of wrongdoing.",
+    "Signal": "A signal is one unusual pattern detected by the system, such as a high price or shared vendor information.",
+}
+
 
 @st.cache_data
 def load_data():
@@ -107,11 +137,38 @@ def parse_signal_names(signals_value):
     return str(signals_value).split(";")
 
 
+def format_signals_display(signals_value):
+    """Turn raw signal codes (e.g. 'high_price;new_vendor') into a readable,
+    comma-separated list (e.g. 'High price, New vendor') for on-screen display."""
+    names = parse_signal_names(signals_value)
+    if not names:
+        return "None"
+    return ", ".join(SIGNAL_LABELS.get(name, name) for name in names)
+
+
 def render_header():
     st.set_page_config(page_title="ProcureLens", layout="wide")
     st.title("ProcureLens")
     st.caption("Synthetic procurement review assistant")
     st.info("All data is synthetic and intended for demonstration only.")
+
+
+def render_intro():
+    """A short, plain-language explanation of what this dashboard does, for a first-time viewer."""
+    st.subheader("What is ProcureLens?")
+    st.write(
+        "ProcureLens is a procurement review assistant. It analyzes synthetic government "
+        "purchasing data and highlights tenders that contain unusual patterns. It helps "
+        "investigators decide which cases may deserve further human review."
+    )
+    st.caption("All data is synthetic and intended for demonstration only.")
+
+
+def render_glossary():
+    """A simple glossary of the key terms used throughout the dashboard."""
+    with st.expander("Understand the terminology"):
+        for term, definition in GLOSSARY_TERMS.items():
+            st.markdown(f"**{term}:** {definition}")
 
 
 def build_priority_ranges():
@@ -135,8 +192,9 @@ def render_scoring_explanation():
     """Explain the scoring signals and priority ranges, sourced directly from scoring.py."""
     with st.expander("How scoring works"):
         st.write(
-            "Each tender is scored using five explainable signals computed from the "
-            "observed procurement data. Points are added whenever a signal's condition is met:"
+            "ProcureLens checks every tender for five signals - specific, unusual patterns "
+            "in the data. Each signal that is detected adds its points to the tender's total "
+            "review score:"
         )
         weights_df = pd.DataFrame([
             {"Signal": SIGNAL_LABELS[name], "Points": weight}
@@ -144,12 +202,22 @@ def render_scoring_explanation():
         ])
         st.dataframe(weights_df, use_container_width=True, hide_index=True)
 
-        st.write("The total score (0-100) maps to a review priority:")
+        st.write(
+            "The total score is simply the sum of the points from every signal that was "
+            "triggered. That score (0-100) then maps to a review priority:"
+        )
         st.dataframe(pd.DataFrame(build_priority_ranges()), use_container_width=True, hide_index=True)
 
+        st.write(
+            "**Example:** if a tender has a high-price signal, a new-vendor signal, and a "
+            "shared-relationship signal, its score is 30 + 20 + 20 = 70. This makes it a "
+            "**High**-priority review candidate."
+        )
+
         st.caption(
-            "Scores and priorities indicate review priority only. They do not establish "
-            "wrongdoing or prove that any irregularity occurred."
+            "The review score is a prioritization aid to help investigators decide where to "
+            "look first. It is not a final judgment, and it does not establish wrongdoing or "
+            "prove that any irregularity occurred."
         )
 
 
@@ -170,16 +238,32 @@ def render_summary_metrics(scoring_df):
 def render_sidebar_filters(scoring_df):
     """Render sidebar filter widgets and return the selected filter values."""
     st.sidebar.header("Filters")
+    st.sidebar.caption("Narrow down the tenders shown below. All tenders are included by default.")
 
     departments = sorted(scoring_df["department"].dropna().unique())
     categories = sorted(scoring_df["tender_category"].dropna().unique())
     methods = sorted(scoring_df["procurement_method"].dropna().unique())
 
-    selected_departments = st.sidebar.multiselect("Department", departments, default=departments)
-    selected_categories = st.sidebar.multiselect("Tender category", categories, default=categories)
-    selected_priorities = st.sidebar.multiselect("Review priority", PRIORITY_ORDER, default=PRIORITY_ORDER)
-    selected_methods = st.sidebar.multiselect("Procurement method", methods, default=methods)
-    min_score = st.sidebar.slider("Minimum score", min_value=0, max_value=100, value=0)
+    selected_departments = st.sidebar.multiselect(
+        "Department", departments, default=departments,
+        help="Show only tenders issued by the selected government departments.",
+    )
+    selected_categories = st.sidebar.multiselect(
+        "Tender category", categories, default=categories,
+        help="Show only tenders in the selected procurement categories, such as Construction or IT Services.",
+    )
+    selected_priorities = st.sidebar.multiselect(
+        "Review priority", PRIORITY_ORDER, default=PRIORITY_ORDER,
+        help="Show only tenders at the selected review-priority levels (Low, Medium, High, Critical).",
+    )
+    selected_methods = st.sidebar.multiselect(
+        "Procurement method", methods, default=methods,
+        help="Show only tenders procured using the selected method, such as Open Tender or Limited Tender.",
+    )
+    min_score = st.sidebar.slider(
+        "Minimum score", min_value=0, max_value=100, value=0,
+        help="Show only tenders with a review score at or above this value.",
+    )
 
     return {
         "departments": selected_departments,
@@ -205,6 +289,10 @@ def apply_filters(scoring_df, filters):
 def render_tender_table(filtered_df):
     """Show the filtered review-candidate table."""
     st.subheader(f"Review candidates ({len(filtered_df)})")
+    st.caption(
+        "These tenders have a review score of 25 or higher and may deserve additional "
+        "human inspection."
+    )
     display_columns = [
         "tender_id", "department", "tender_category", "estimated_value",
         "contract_amount", "score", "review_priority", "signals",
@@ -212,7 +300,10 @@ def render_tender_table(filtered_df):
     if filtered_df.empty:
         st.warning("No tenders match the current filters.")
     else:
-        st.dataframe(filtered_df[display_columns], use_container_width=True, hide_index=True)
+        display_df = filtered_df[display_columns].copy()
+        display_df["signals"] = display_df["signals"].apply(format_signals_display)
+        display_df = display_df.rename(columns=COLUMN_LABELS)
+        st.dataframe(display_df, use_container_width=True, hide_index=True)
 
     csv_bytes = filtered_df.to_csv(index=False).encode("utf-8")
     st.download_button(
@@ -257,8 +348,9 @@ def render_relationship_panel(vendor, vendors_df):
     """Show the winning vendor's address/contact groups and any other vendors sharing them."""
     st.markdown("**Relationship analysis**")
     st.caption(
-        "Vendors sharing a registration group is a shared vendor relationship signal "
-        "and requires further review. It does not by itself indicate wrongdoing."
+        "This section shows vendors that share registration, address, or contact "
+        "information. A shared relationship is only a review signal and does not "
+        "independently indicate wrongdoing."
     )
 
     address_group_id = vendor["address_group_id"]
@@ -297,6 +389,7 @@ def render_relationship_panel(vendor, vendors_df):
 def render_score_breakdown(signal_names, total_score):
     """Show the individual scoring signals and points that make up this tender's score."""
     st.markdown("**Score breakdown**")
+    st.caption("This table shows exactly how the selected tender's review score was calculated.")
 
     if not signal_names:
         st.write("No scoring signals apply to this tender.")
@@ -329,15 +422,24 @@ def render_tender_details(tender_id, vendors_df, tenders_df, bids_df, scoring_df
     score_row = scoring_df[scoring_df["tender_id"] == tender_id].iloc[0]
 
     st.subheader(f"Tender detail: {tender_id}")
-    st.markdown(f"**{tender['tender_title']}**")
+    st.caption("This section shows the information and signals behind the selected tender's review score.")
+
+    # Score and priority are the two most important facts about a tender, so
+    # they're shown prominently as metrics rather than plain text.
+    score_col, priority_col = st.columns(2)
+    score_col.metric("Review score", f"{score_row['score']} / 100")
+    priority_col.metric("Review priority", score_row["review_priority"])
+
+    st.markdown(f"**Tender title:** {tender['tender_title']}")
 
     col1, col2, col3 = st.columns(3)
+    col1.write(f"**Tender ID:** {tender_id}")
     col1.write(f"**Department:** {tender['department']}")
     col1.write(f"**Category:** {tender['tender_category']}")
     col2.write(f"**Estimated value:** {tender['estimated_value']:,}")
     col2.write(f"**Contract amount:** {score_row['contract_amount']:,}")
-    col3.write(f"**Price ratio:** {score_row['price_ratio']}")
-    col3.write(f"**Bid count:** {score_row['bid_count']}")
+    col2.write(f"**Price ratio:** {score_row['price_ratio']}")
+    col3.write(f"**Number of bids:** {score_row['bid_count']}")
 
     winning_vendor_id = score_row["winning_vendor_id"]
     vendor = vendors_df[vendors_df["vendor_id"] == winning_vendor_id].iloc[0]
@@ -346,16 +448,16 @@ def render_tender_details(tender_id, vendors_df, tenders_df, bids_df, scoring_df
     shared_relationship = "Yes" if score_row["has_shared_relationship"] else "No"
     signal_names = parse_signal_names(score_row["signals"])
 
+    col3.write(f"**Vendor age:** {score_row['vendor_age_days']} days")
+
     col4, col5, col6 = st.columns(3)
     col4.write(f"**Winning vendor:** {vendor['vendor_name']} ({winning_vendor_id})")
     col4.write(f"**Vendor registered:** {vendor['registration_date']}")
-    col5.write(f"**Vendor age at tender date:** {score_row['vendor_age_days']} days")
     col5.write(f"**Shared relationship:** {shared_relationship}")
     if score_row["has_shared_relationship"]:
         col5.caption(f"Address group: {vendor['address_group_id']} ({address_group_size} vendors); "
                      f"Contact group: {vendor['contact_group_id']} ({contact_group_size} vendors)")
-    col6.write(f"**Review score:** {score_row['score']} ({score_row['review_priority']})")
-    col6.write(f"**Signals:** {', '.join(SIGNAL_LABELS.get(s, s) for s in signal_names) or 'None'}")
+    col6.write(f"**Detected signals:** {format_signals_display(score_row['signals'])}")
 
     st.markdown("**Explanation**")
     st.write(score_row["explanation"])
@@ -368,18 +470,27 @@ def render_tender_details(tender_id, vendors_df, tenders_df, bids_df, scoring_df
     render_score_breakdown(signal_names, score_row["score"])
 
     st.markdown("**Bids for this tender**")
+    st.caption(
+        "This table compares the offers submitted by vendors for the selected tender. "
+        "The winning bid is highlighted."
+    )
     tender_bids = bids_df[bids_df["tender_id"] == tender_id][
         ["vendor_id", "bid_amount", "submission_time", "is_winner"]
     ].sort_values("bid_amount")
+
+    # Rename to friendly labels only for the on-screen copy; the returned
+    # `tender_bids` keeps its original column names for render_charts() below.
+    display_bids = tender_bids.rename(columns=COLUMN_LABELS)
+    winner_column = COLUMN_LABELS["is_winner"]
 
     def highlight_winner(row):
         # Explicit dark text alongside the light background keeps the winning
         # row readable under Streamlit's dark theme (light bg + default light
         # text was low-contrast).
-        style = "background-color: #c6f6d5; color: #1a202c;" if row["is_winner"] else ""
+        style = "background-color: #c6f6d5; color: #1a202c;" if row[winner_column] else ""
         return [style] * len(row)
 
-    st.dataframe(tender_bids.style.apply(highlight_winner, axis=1), use_container_width=True, hide_index=True)
+    st.dataframe(display_bids.style.apply(highlight_winner, axis=1), use_container_width=True, hide_index=True)
 
     return tender_bids
 
@@ -452,8 +563,9 @@ def render_evaluation(scoring_df):
         return
 
     st.caption(
-        "This section is evaluation-only. It compares scores against deliberately planted "
-        "synthetic patterns and is not used by the production scoring logic."
+        "This evaluation uses deliberately planted patterns in synthetic data to demonstrate "
+        "how the scoring rules perform. It is not a real-world accuracy claim, and this "
+        "evaluation-only comparison is not used by the production scoring logic."
     )
 
     merged = scoring_df.merge(ground_truth_df[["tender_id", "is_planted_anomaly"]], on="tender_id")
@@ -473,6 +585,8 @@ def render_evaluation(scoring_df):
 
 def main():
     render_header()
+    render_intro()
+    render_glossary()
     render_scoring_explanation()
     vendors_df, tenders_df, bids_df, contracts_df, scoring_df = load_data()
 
